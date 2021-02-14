@@ -1,0 +1,303 @@
+﻿<div ng-controller="createCompanyCtrl">
+    <div ng-if="companyInsertMsg" class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Success!</strong> {{companyInsertMsg}}.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <uib-tabset active="activeTab">
+        <uib-tab index="0" heading="Company" disable="true">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Add new Company</h3>
+                </div>
+                <div class="card-body">
+                    <div class="card-text">
+                        <form name="frmAddCompany" ng-submit="companyDone()">
+                            <div class="form-group row">
+                                <label for="" class="col-form-label col-form-label-sm col-2">Company Name</label>
+                                <div class="col-4">
+                                    <input name="companyName"
+                                           ng-model="newCompany.CompanyName"
+                                           class="form-control form-control-sm"
+                                           ng-maxlength="40"
+                                           required />
+                                    <div ng-messages="frmAddCompany.companyName.$error"
+                                         ng-show="frmAddCompany.companyName.$invalid && !frmAddCompany.companyName.$pristine">
+                                        <div class="text-danger" ng-message="required">
+                                            This field is requred.
+                                        </div>
+                                        <div class="text-danger" ng-message="maxlength">
+                                            Field value too long.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-form-label col-form-label-sm col-2">Eshtablished</label>
+                                <div class="col-4">
+                                    <div class="input-group">
+                                        <input name="eshtablished"
+                                               ng-model="newCompany.Eshtablished"
+                                               class="form-control form-control-sm"
+                                               required
+                                               uib-datepicker-popup="yyyy-MM-dd"
+                                               is-open="popup1.opened"
+                                               close-text="Close" />
+                                        <span class="input-group-btn">
+                                            <button type="button"
+                                                    class="btn btn-secondary btn-sm"
+                                                    ng-click="open1()">
+                                                <!--<i class="fa-svg-icon">
+                                                    <svg width="1792"
+                                                         height="1792"
+                                                         viewBox="0 0 1792 1792"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M192 1664h288v-288h-288v288zm352 0h320v-288h-320v288zm-352-352h288v-320h-288v320zm352 0h320v-320h-320v320zm-352-384h288v-288h-288v288zm736 736h320v-288h-320v288zm-384-736h320v-288h-320v288zm768 736h288v-288h-288v288zm-384-352h320v-320h-320v320zm-352-864v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm736 864h288v-320h-288v320zm-384-384h320v-288h-320v288zm384 0h288v-288h-288v288zm32-480v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z" />
+                                                    </svg>
+                                                </i>-->
+                                                <i class="fa fa-calendar"></i>
+                                            </button>
+                                        </span>
+                                    </div>
+
+                                    <div ng-messages="frmAddCompany.eshtablished.$error"
+                                         ng-show="frmAddCompany.eshtablished.$invalid && !frmAddCompany.eshtablished.$pristine">
+                                        <div class="text-danger" ng-message="required">
+                                            This field is requred.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-form-label col-form-label-sm col-2">E-mail</label>
+                                <div class="col-4">
+                                    <input type="email"
+                                           name="contactEmail"
+                                           ng-model="newCompany.ContactEmail"
+                                           class="form-control form-control-sm"
+                                           required />
+                                    <div ng-messages="frmAddCompany.contactEmail.$error"
+                                         ng-show="frmAddCompany.contactEmail.$invalid && !frmAddCompany.contactEmail.$pristine">
+                                        <div class="text-danger" ng-message="required">
+                                            This field is requred.
+                                        </div>
+                                        <div class="text-danger" ng-message="email">
+                                            Invalid email address.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-form-label col-form-label-sm col-2">Web Address</label>
+                                <div class="col-4">
+                                    <input type="url"
+                                           name="web"
+                                           ng-model="newCompany.Web"
+                                           class="form-control form-control-sm"
+                                           required />
+                                    <div ng-messages="frmAddCompany.web.$error"
+                                         ng-show="frmAddCompany.web.$invalid && !frmAddCompany.web.$pristine">
+                                        <div class="text-danger" ng-message="required">
+                                            This field is requred.
+                                        </div>
+                                        <div class="text-danger" ng-message="url">
+                                            Invalid url. Url must start with http:// or https://
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-12">
+                                    <div class="d-flex justify-content-end mr-2">
+                                        <button type="submit"
+                                                class="btn btn-primary"
+                                                ng-disabled="frmAddCompany.$invalid">
+                                            Next
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+               
+            </div>
+        </uib-tab>
+        <uib-tab index="1" heading="Products" disable="true">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Products</h2>
+                </div>
+                <div class="card-body">
+                    <div class="card-text">
+                        
+                        <form name="frmAddProduct"
+                              ng-submit="productDone(frmAddProduct)"
+                              novalidate>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Product Name</th>
+                                        <th>Type</th>
+                                        <th style="width:90px"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="item in products">
+                                        <td>{{item.ProductName}}</td>
+                                        <td>{{item.Type}}</td>
+                                        <td class="text-center">
+                                            <button type="button"
+                                                    class="btn btn-danger btn-sm"
+                                                    ng-click="productDel($index)">
+                                                <i class="fa fa-trash"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td>
+                                            <input name="productName"
+                                                   class="form-control form-control-sm"
+                                                   ng-model="newProduct.ProductName"
+                                                   required />
+                                            <div ng-messages="frmAddProduct.productName.$error"
+                                                 ng-show="frmAddProduct.productName.$invalid && !frmAddProduct.productName.$pristine">
+                                                <div class="text-danger" ng-message="required">
+                                                    This field is requred.
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <select name="type"
+                                                    class="form-control form-control-sm"
+                                                    ng-model="newProduct.Type"
+                                                    required>
+                                                <option value="">Select</option>
+                                                <option value="Hardware">Hardware</option>
+                                                <option value="Software">Software</option>
+                                                <option value="Device">Device</option>
+                                            </select>
+                                            <div ng-messages="frmAddProduct.type.$error"
+                                                 ng-show="frmAddProduct.type.$invalid && !frmAddProduct.type.$pristine">
+                                                <div class="text-danger" ng-message="required">
+                                                    This field is requred.
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <button type="submit"
+                                                    class="btn btn-primary btn-sm"
+                                                    ng-disabled="frmAddProduct.$invalid">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </form>
+                        <div class="d-flex">
+                            <button type="button"
+                                    class="btn btn-secondary btn-sm"
+                                    ng-click="productPre()">
+                                Previous
+                            </button>
+                            <span style="flex: auto">&nbsp;</span>
+                            <button ng-disabled="products.length == 0"
+                                    type="button"
+                                    class="btn btn-primary btn-sm"
+                                    ng-click="productNext()">
+                                Next
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </uib-tab>
+        <uib-tab index="2" heading="Services" disable="true">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Services</h2>
+                </div>
+                <div class="card-body">
+                    <div class="card-text">
+                        <form name="frmAddService" ng-submit="serviceDone(frmAddService)">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Service Name</th>
+                                        <th>Is Contactual?</th>
+                                        <th style="width:90px"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="item in services">
+                                        <td>{{item.ServiceName}}</td>
+                                        <td>{{item.IsContactual ? 'Yes': 'No'}}</td>
+                                        <td class="text-center">
+                                            <button type="button"
+                                                    class="btn btn-danger btn-sm"
+                                                    ng-click="serviceDel($index)">
+                                                <i class="fa fa-trash"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td>
+                                            <input name="serviceName"
+                                                   class="form-control form-control-sm"
+                                                   ng-model="newService.ServiceName"
+                                                   required />
+                                            <div ng-messages="frmAddService.serviceName.$error"
+                                                 ng-show="frmAddService.serviceName.$invalid && !frmAddService.serviceName.$pristine">
+                                                <div class="text-danger" ng-message="required">
+                                                    This field is requred.
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="checkbox" name="isContactual"
+                                                   ng-model="newService.IsContactual" />
+
+                                            <div ng-messages="frmAddService.isContactual.$error"
+                                                 ng-show="frmAddService.isContactual.$invalid && !frmAddService.isContactual.$pristine">
+                                                <div class="text-danger" ng-message="required">
+                                                    This field is requred.
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <button type="submit"
+                                                    class="btn btn-primary btn-sm"
+                                                    ng-disabled="frmAddService.$invalid">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </form>
+                        <div class="d-flex">
+                            <button type="button"
+                                    class="btn btn-secondary btn-sm"
+                                    ng-click="servicePre()">
+                                Previous
+                            </button>
+                            <span style="flex: auto">&nbsp;</span>
+                            <button ng-disabled="services.length == 0"
+                                    type="button"
+                                    class="btn btn-primary btn-sm"
+                                    ng-click="serviceNext([frmAddCompany, frmAddService, frmAddProduct])">
+                                Save and Finish
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </uib-tab>
+    </uib-tabset>
+</div>

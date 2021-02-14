@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "twitter-bootstrap@4.5.2",
+      "destination": "wwwroot/libs/bootstrap/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "popper.js@1.13.0",
+      "destination": "wwwroot/libs/popper.js/"
+    },
+    {
+      "library": "jquery@3.5.1",
+      "destination": "wwwroot/libs/jquery/"
+    },
+    {
+      "library": "jquery-validate@1.19.2",
+      "destination": "wwwroot/libs/validate"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jquery-validation-unobtrusive@3.2.11",
+      "destination": "wwwroot/libs/validate"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jquery-ajax-unobtrusive@3.2.6",
+      "destination": "wwwroot/libs/ajax"
+    },
+    {
+      "library": "font-awesome@4.7.0",
+      "destination": "wwwroot/libs/fontawesome"
+    }
+    
+  ]
+}

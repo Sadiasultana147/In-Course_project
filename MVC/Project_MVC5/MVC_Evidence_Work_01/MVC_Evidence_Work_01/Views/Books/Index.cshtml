@@ -1,0 +1,62 @@
+﻿@model IEnumerable<MVC_Evidence_Work_01.ViewModels.BookVm>
+@using PagedList.Mvc
+@using PagedList
+@{
+    ViewBag.Title = "Index";
+}
+<h1>BookList</h1>
+<div class="d-flex justify-content-end mb-1">
+    @using (Html.BeginForm())
+    {
+        <div class="input-group mr-1">
+            <input type="text" name="search" class="form-control" placeholder="type name.." />
+            <div class="input-group-append">
+                <a href="~/Views/Books/"></a>
+                <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+
+
+    }
+    @Html.ActionLink("Create New", "Create", new { }, new { @class = "btn btn-primary btn-sm ml-2" })
+</div>
+        <table class="table table-bordered">
+            <thead class="thead-light">
+                <tr>
+                    <th>@Html.DisplayNameFor(x => x.BookId)</th>
+                    <th>@Html.DisplayNameFor(x => x.BookName)</th>
+                    <th>@Html.DisplayNameFor(x => x.Category)</th>
+                    <th>@Html.DisplayNameFor(x => x.PublishDate)</th>
+                    <th>@Html.DisplayNameFor(x => x.Picture)</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var b in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(x => b.BookId)</td>
+                        <td>@Html.DisplayFor(x => b.BookName)</td>
+                        <td>@Html.DisplayFor(x => b.Category)</td>
+                        <td>@Html.DisplayFor(x => b.PublishDate)</td>
+
+                        <td><img src="/Avatars/@b.Picture" width="40" class="rounded-circle" /></td>
+                        <td>
+                            <a title="Edit this Item" href="@Url.Action("Edit", new {id=b.BookId })" class="btn btn-outline-warning btn-sm"> Edit</a>
+                            <a title="Delete this Item" href="@Url.Action("Delete", new {id=b.BookId })" class="btn btn-outline-danger btn-sm"> Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="d-flex justify-content-end">
+            @Html.PagedListPager(Model as IPagedList, page => Url.Action("Index", new { page }))
+        </div>
+    </div>
+</div>
+@section styles
+    {
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+<link href="~/Content/font-awesome.css" rel="stylesheet" />
+    }
+

@@ -1,0 +1,112 @@
+﻿@{
+    ViewBag.Title = "Chat";
+}
+
+ 
+    
+<div class="box">
+    <div class="row">
+        <div class="col-12">
+            Dispaly Name: <span class="text-dark" id="n"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+
+        <div class="btn-group col-12" role="group">
+            <div class="input-group col-6">
+                <select class="form-control" id="groupList"></select>
+                <div class="input-group-append">
+                    <button type="button" id="j" class="btn btn-secondary">Join</button>
+                </div>
+            </div>
+            <div class="input-group col-6">
+                <input class="form-control" id="cl">
+                <div class="input-group-append">
+                    <button type="button" id="jc" ><i class="fa fa-plus" style="font-size:28px; color:pink"></i></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+
+
+        <div class="input-group col-6">
+            <select class="form-control" id="joinedGroups"></select>
+            <div class="input-group-append">
+                <button type="button" id="l" class="btn btn-secondary">Leave</button>
+            </div>
+        </div>
+
+        <div class="input-group col-6">
+            <input class="form-control" id="t" />
+            <div class="input-group-append">
+                <button type="button" id="s"><i class="fa fa-send" style="font-size:28px; color:pink"></i></button>
+            </div>
+        </div>
+
+    </div>
+    <div class="row mb-3">
+        <div class="col-12">
+            <h4>Messages</h4>
+            <div>
+                <ul id="msgs" class="list-group"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+@section styles{
+    <link href="~/Content/StyleSheet.css" rel="stylesheet" />
+
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+}
+
+
+@section scripts{
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery.signalR-2.4.1.js"></script>
+    <script src="~/signalr/Hubs"></script>
+    <script>
+        var name;
+        var proxy = $.connection.chatHub;
+
+        proxy.client.updateGroups = groups => {
+            $("#groupList").empty();
+            $.each(groups, (i, v) => {
+                $("#groupList").append(`<option class="dropdown-item" value='${v}'>${v}</option>`);
+            });
+        }
+        proxy.client.message = (s, m) => {
+            $("#msgs").append(`<li class='list-group-item'>${s}: ${m}</li>`)
+        }
+        proxy.client.joinedGroup = (g) => {
+            $("#joinedGroups").append(`<option class="dropdown-item" value='${g}'>${g}</option>`)
+        }
+        proxy.client.leftGroup = (g) => {
+            console.log(g);
+            console.log($(`select #joinedGroups option[value='${g}']`));
+            $(`#joinedGroups option[value='${g}']`).remove();
+        }
+        $.connection.hub.start()
+            .done(() => {
+                name = prompt("Your display name?");
+                $("#n").html(name);
+                proxy.server.addMe(name);
+                $("#j").click(() => {
+                    proxy.server.joinToGroup($("#groupList").val())
+                });
+                $("#jc").click(() => {
+                    proxy.server.createGroup($("#cl").val())
+                });
+                $("#l").click(() => {
+                    proxy.server.leaveFromGroup($("#joinedGroups").val())
+                });
+                $("#s").click(() => {
+                    proxy.server.messageToGroup($("#joinedGroups").val(), $("#t").val());
+                });
+            })
+            .fail(err => {
+                console.log(err);
+            });
+    </script>
+}

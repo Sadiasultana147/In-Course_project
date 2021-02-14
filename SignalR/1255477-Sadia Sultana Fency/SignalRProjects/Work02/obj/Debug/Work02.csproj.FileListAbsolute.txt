@@ -1,0 +1,356 @@
+D:\R43\SignalRProjects\Work02\bin\Work02.dll.config
+D:\R43\SignalRProjects\Work02\bin\Work02.dll
+D:\R43\SignalRProjects\Work02\bin\Work02.pdb
+D:\R43\SignalRProjects\Work02\bin\roslyn\csc.exe
+D:\R43\SignalRProjects\Work02\bin\roslyn\csc.exe.config
+D:\R43\SignalRProjects\Work02\bin\roslyn\csc.rsp
+D:\R43\SignalRProjects\Work02\bin\roslyn\csi.exe
+D:\R43\SignalRProjects\Work02\bin\roslyn\csi.exe.config
+D:\R43\SignalRProjects\Work02\bin\roslyn\csi.rsp
+D:\R43\SignalRProjects\Work02\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\R43\SignalRProjects\Work02\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\Microsoft.Managed.Core.targets
+D:\R43\SignalRProjects\Work02\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.AppContext.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Collections.Immutable.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Console.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.IO.Compression.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.IO.FileSystem.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.IO.Pipes.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Reflection.Metadata.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Security.AccessControl.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Security.Claims.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Security.Principal.Windows.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.ValueTuple.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Xml.XmlDocument.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Xml.XPath.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\R43\SignalRProjects\Work02\bin\roslyn\vbc.exe
+D:\R43\SignalRProjects\Work02\bin\roslyn\vbc.exe.config
+D:\R43\SignalRProjects\Work02\bin\roslyn\vbc.rsp
+D:\R43\SignalRProjects\Work02\bin\roslyn\VBCSCompiler.exe
+D:\R43\SignalRProjects\Work02\bin\roslyn\VBCSCompiler.exe.config
+D:\R43\SignalRProjects\Work02\bin\Antlr3.Runtime.dll
+D:\R43\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\R43\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\R43\SignalRProjects\Work02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\R43\SignalRProjects\Work02\bin\Microsoft.Owin.dll
+D:\R43\SignalRProjects\Work02\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\R43\SignalRProjects\Work02\bin\Microsoft.Owin.Security.dll
+D:\R43\SignalRProjects\Work02\bin\Microsoft.Web.Infrastructure.dll
+D:\R43\SignalRProjects\Work02\bin\Newtonsoft.Json.dll
+D:\R43\SignalRProjects\Work02\bin\Owin.dll
+D:\R43\SignalRProjects\Work02\bin\System.Web.Helpers.dll
+D:\R43\SignalRProjects\Work02\bin\System.Web.Mvc.dll
+D:\R43\SignalRProjects\Work02\bin\System.Web.Optimization.dll
+D:\R43\SignalRProjects\Work02\bin\System.Web.Razor.dll
+D:\R43\SignalRProjects\Work02\bin\System.Web.WebPages.Deployment.dll
+D:\R43\SignalRProjects\Work02\bin\System.Web.WebPages.dll
+D:\R43\SignalRProjects\Work02\bin\System.Web.WebPages.Razor.dll
+D:\R43\SignalRProjects\Work02\bin\WebGrease.dll
+D:\R43\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\R43\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\R43\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\R43\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\R43\SignalRProjects\Work02\bin\Microsoft.Owin.xml
+D:\R43\SignalRProjects\Work02\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\R43\SignalRProjects\Work02\bin\Microsoft.Owin.Security.xml
+D:\R43\SignalRProjects\Work02\bin\System.Web.Helpers.xml
+D:\R43\SignalRProjects\Work02\bin\System.Web.Mvc.xml
+D:\R43\SignalRProjects\Work02\bin\System.Web.Optimization.xml
+D:\R43\SignalRProjects\Work02\bin\System.Web.Razor.xml
+D:\R43\SignalRProjects\Work02\bin\System.Web.WebPages.xml
+D:\R43\SignalRProjects\Work02\bin\System.Web.WebPages.Deployment.xml
+D:\R43\SignalRProjects\Work02\bin\System.Web.WebPages.Razor.xml
+D:\R43\SignalRProjects\Work02\bin\Newtonsoft.Json.xml
+D:\R43\SignalRProjects\Work02\bin\Antlr3.Runtime.pdb
+D:\R43\SignalRProjects\Work02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\R43\SignalRProjects\Work02\obj\Debug\Work02.csproj.CoreCompileInputs.cache
+D:\R43\SignalRProjects\Work02\obj\Debug\Work02.csproj.CopyComplete
+D:\R43\SignalRProjects\Work02\obj\Debug\Work02.dll
+D:\R43\SignalRProjects\Work02\obj\Debug\Work02.pdb
+D:\SignalRProjects\Work02\bin\Work02.dll.config
+D:\SignalRProjects\Work02\bin\Work02.dll
+D:\SignalRProjects\Work02\bin\Work02.pdb
+D:\SignalRProjects\Work02\bin\roslyn\csc.exe
+D:\SignalRProjects\Work02\bin\roslyn\csc.exe.config
+D:\SignalRProjects\Work02\bin\roslyn\csc.rsp
+D:\SignalRProjects\Work02\bin\roslyn\csi.exe
+D:\SignalRProjects\Work02\bin\roslyn\csi.exe.config
+D:\SignalRProjects\Work02\bin\roslyn\csi.rsp
+D:\SignalRProjects\Work02\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SignalRProjects\Work02\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SignalRProjects\Work02\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\SignalRProjects\Work02\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\SignalRProjects\Work02\bin\roslyn\Microsoft.Managed.Core.targets
+D:\SignalRProjects\Work02\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SignalRProjects\Work02\bin\roslyn\System.AppContext.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Collections.Immutable.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Console.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.IO.Compression.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.IO.FileSystem.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.IO.Pipes.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Reflection.Metadata.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Security.AccessControl.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Security.Claims.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Security.Principal.Windows.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.ValueTuple.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Xml.XmlDocument.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Xml.XPath.dll
+D:\SignalRProjects\Work02\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\SignalRProjects\Work02\bin\roslyn\vbc.exe
+D:\SignalRProjects\Work02\bin\roslyn\vbc.exe.config
+D:\SignalRProjects\Work02\bin\roslyn\vbc.rsp
+D:\SignalRProjects\Work02\bin\roslyn\VBCSCompiler.exe
+D:\SignalRProjects\Work02\bin\roslyn\VBCSCompiler.exe.config
+D:\SignalRProjects\Work02\bin\Antlr3.Runtime.dll
+D:\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\SignalRProjects\Work02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SignalRProjects\Work02\bin\Microsoft.Owin.dll
+D:\SignalRProjects\Work02\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SignalRProjects\Work02\bin\Microsoft.Owin.Security.dll
+D:\SignalRProjects\Work02\bin\Microsoft.Web.Infrastructure.dll
+D:\SignalRProjects\Work02\bin\Newtonsoft.Json.dll
+D:\SignalRProjects\Work02\bin\Owin.dll
+D:\SignalRProjects\Work02\bin\System.Web.Helpers.dll
+D:\SignalRProjects\Work02\bin\System.Web.Mvc.dll
+D:\SignalRProjects\Work02\bin\System.Web.Optimization.dll
+D:\SignalRProjects\Work02\bin\System.Web.Razor.dll
+D:\SignalRProjects\Work02\bin\System.Web.WebPages.Deployment.dll
+D:\SignalRProjects\Work02\bin\System.Web.WebPages.dll
+D:\SignalRProjects\Work02\bin\System.Web.WebPages.Razor.dll
+D:\SignalRProjects\Work02\bin\WebGrease.dll
+D:\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\SignalRProjects\Work02\bin\Microsoft.Owin.xml
+D:\SignalRProjects\Work02\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SignalRProjects\Work02\bin\Microsoft.Owin.Security.xml
+D:\SignalRProjects\Work02\bin\System.Web.Helpers.xml
+D:\SignalRProjects\Work02\bin\System.Web.Mvc.xml
+D:\SignalRProjects\Work02\bin\System.Web.Optimization.xml
+D:\SignalRProjects\Work02\bin\System.Web.Razor.xml
+D:\SignalRProjects\Work02\bin\System.Web.WebPages.xml
+D:\SignalRProjects\Work02\bin\System.Web.WebPages.Deployment.xml
+D:\SignalRProjects\Work02\bin\System.Web.WebPages.Razor.xml
+D:\SignalRProjects\Work02\bin\Newtonsoft.Json.xml
+D:\SignalRProjects\Work02\bin\Antlr3.Runtime.pdb
+D:\SignalRProjects\Work02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SignalRProjects\Work02\obj\Debug\Work02.csproj.CoreCompileInputs.cache
+D:\SignalRProjects\Work02\obj\Debug\Work02.csproj.CopyComplete
+D:\SignalRProjects\Work02\obj\Debug\Work02.dll
+D:\SignalRProjects\Work02\obj\Debug\Work02.pdb
+F:\SignalRProjects\Work02\bin\Work02.dll.config
+F:\SignalRProjects\Work02\bin\Work02.dll
+F:\SignalRProjects\Work02\bin\Work02.pdb
+F:\SignalRProjects\Work02\bin\roslyn\csc.exe
+F:\SignalRProjects\Work02\bin\roslyn\csc.exe.config
+F:\SignalRProjects\Work02\bin\roslyn\csc.rsp
+F:\SignalRProjects\Work02\bin\roslyn\csi.exe
+F:\SignalRProjects\Work02\bin\roslyn\csi.exe.config
+F:\SignalRProjects\Work02\bin\roslyn\csi.rsp
+F:\SignalRProjects\Work02\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\SignalRProjects\Work02\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\SignalRProjects\Work02\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\SignalRProjects\Work02\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\SignalRProjects\Work02\bin\roslyn\Microsoft.Managed.Core.targets
+F:\SignalRProjects\Work02\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\SignalRProjects\Work02\bin\roslyn\System.AppContext.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Collections.Immutable.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Console.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.IO.Compression.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.IO.FileSystem.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.IO.Pipes.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Reflection.Metadata.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Security.AccessControl.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Security.Claims.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Security.Principal.Windows.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.ValueTuple.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Xml.XmlDocument.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Xml.XPath.dll
+F:\SignalRProjects\Work02\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\SignalRProjects\Work02\bin\roslyn\vbc.exe
+F:\SignalRProjects\Work02\bin\roslyn\vbc.exe.config
+F:\SignalRProjects\Work02\bin\roslyn\vbc.rsp
+F:\SignalRProjects\Work02\bin\roslyn\VBCSCompiler.exe
+F:\SignalRProjects\Work02\bin\roslyn\VBCSCompiler.exe.config
+F:\SignalRProjects\Work02\bin\Antlr3.Runtime.dll
+F:\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.Core.dll
+F:\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+F:\SignalRProjects\Work02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\SignalRProjects\Work02\bin\Microsoft.Owin.dll
+F:\SignalRProjects\Work02\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\SignalRProjects\Work02\bin\Microsoft.Owin.Security.dll
+F:\SignalRProjects\Work02\bin\Microsoft.Web.Infrastructure.dll
+F:\SignalRProjects\Work02\bin\Newtonsoft.Json.dll
+F:\SignalRProjects\Work02\bin\Owin.dll
+F:\SignalRProjects\Work02\bin\System.Web.Helpers.dll
+F:\SignalRProjects\Work02\bin\System.Web.Mvc.dll
+F:\SignalRProjects\Work02\bin\System.Web.Optimization.dll
+F:\SignalRProjects\Work02\bin\System.Web.Razor.dll
+F:\SignalRProjects\Work02\bin\System.Web.WebPages.Deployment.dll
+F:\SignalRProjects\Work02\bin\System.Web.WebPages.dll
+F:\SignalRProjects\Work02\bin\System.Web.WebPages.Razor.dll
+F:\SignalRProjects\Work02\bin\WebGrease.dll
+F:\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.Core.pdb
+F:\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.Core.xml
+F:\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+F:\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+F:\SignalRProjects\Work02\bin\Microsoft.Owin.xml
+F:\SignalRProjects\Work02\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\SignalRProjects\Work02\bin\Microsoft.Owin.Security.xml
+F:\SignalRProjects\Work02\bin\System.Web.Helpers.xml
+F:\SignalRProjects\Work02\bin\System.Web.Mvc.xml
+F:\SignalRProjects\Work02\bin\System.Web.Optimization.xml
+F:\SignalRProjects\Work02\bin\System.Web.Razor.xml
+F:\SignalRProjects\Work02\bin\System.Web.WebPages.xml
+F:\SignalRProjects\Work02\bin\System.Web.WebPages.Deployment.xml
+F:\SignalRProjects\Work02\bin\System.Web.WebPages.Razor.xml
+F:\SignalRProjects\Work02\bin\Newtonsoft.Json.xml
+F:\SignalRProjects\Work02\bin\Antlr3.Runtime.pdb
+F:\SignalRProjects\Work02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\SignalRProjects\Work02\obj\Debug\Work02.csprojAssemblyReference.cache
+F:\SignalRProjects\Work02\obj\Debug\Work02.csproj.CoreCompileInputs.cache
+F:\SignalRProjects\Work02\obj\Debug\Work02.csproj.CopyComplete
+F:\SignalRProjects\Work02\obj\Debug\Work02.dll
+F:\SignalRProjects\Work02\obj\Debug\Work02.pdb
+D:\R43\SignalRProjects\Work02\obj\Debug\Work02.csprojAssemblyReference.cache
+D:\SignalRProjects\Work02\obj\Debug\Work02.csprojAssemblyReference.cache
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\obj\Debug\Work02.csproj.CoreCompileInputs.cache
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\obj\Debug\Work02.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\obj\Debug\Work02.pdb
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Work02.dll.config
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Work02.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Work02.pdb
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\csc.exe
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\csc.exe.config
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\csc.rsp
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\csi.exe
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\csi.exe.config
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\csi.rsp
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.AppContext.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Console.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.IO.Compression.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.IO.Pipes.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Security.Claims.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.ValueTuple.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Xml.XPath.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\vbc.exe
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\vbc.exe.config
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\vbc.rsp
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\VBCSCompiler.exe
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Antlr3.Runtime.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.Owin.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.Owin.Security.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Newtonsoft.Json.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Owin.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.Helpers.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.Mvc.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.Optimization.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.Razor.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.WebPages.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.WebPages.Razor.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\WebGrease.dll
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.Owin.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.Owin.Security.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.Helpers.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.Mvc.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.Optimization.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.Razor.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.WebPages.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\System.Web.WebPages.Razor.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Newtonsoft.Json.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Antlr3.Runtime.pdb
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\obj\Debug\Work02.csproj.CopyComplete
+C:\Users\LAB4-14\Desktop\Signalr\1255477-Sadia Sultana Fency\SignalRProjects\Work02\obj\Debug\Work02.csprojAssemblyReference.cache

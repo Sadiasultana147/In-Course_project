@@ -1,0 +1,81 @@
+﻿@{
+    ViewBag.Title = "Chat";
+}
+
+
+
+<div class="box">
+    <div class="row">
+        <div class="col-4">
+            <h3>Users</h3>
+            <ul class="list-group" id="users"></ul>
+        </div>
+        <div class="col-8">
+            <div class="input-group row">
+                
+                <input type="text" class="form-control col-8" id="t" />
+                <div class="input-group-append">
+                    <button type="button" id="b"><i class="fa fa-send" style="font-size:28px; color:pink" ></i></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12" style="padding-left:5px;">
+                    <h4>Messages</h4>
+                    <div>
+                        <ul id="msgs" class="list-group"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section styles{
+    <link href="~/Content/StyleSheet.css" rel="stylesheet" />
+
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    }
+
+
+
+    @section scripts{
+
+        <script src="~/Scripts/jquery.signalR-2.4.1.js"></script>
+
+        <script>
+            var name;
+            var connection = $.connection("/chat");
+            connection.received((data) => {
+                console.log(data);
+                if (data.MessageType == "updateUsers") {
+                    $("#users").empty();
+                    $.each(data.List, (i, v) => {
+                        $("#users").append(`<li class="list-group-item">${v}</li>`);
+                    });
+                }
+                if (data.MessageType == "message") {
+                    $("#msgs").append(`<li class='list-group-item'>${data.From}: ${data.Data}</li>`)
+                }
+
+            });
+            connection.start()
+                .done(() => {
+                    console.log("connected");
+                    name = prompt("Your display name?");
+                    connection.send(JSON.stringify({ MessageType: "addMe", From: name, Data: "" }));
+                    $("#b").click(() => {
+                        connection.send(JSON.stringify({ MessageType: "message", From: name, Data: $("#t").val() }));
+                        $("#t").val("");
+                    })
+                })
+                .fail(err => {
+                    console.log(err);
+                });
+
+
+        </script>
+
+
+    }
+

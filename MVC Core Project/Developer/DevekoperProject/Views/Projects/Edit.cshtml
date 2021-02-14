@@ -1,0 +1,177 @@
+﻿@model Project
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h4 class="card-title">Edit Project</h4>
+    </div>
+    <div class="card-body">
+        @if (ViewBag.PostBack != null)
+        {
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Success!</strong>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <p>Data Save Successfully.</p>
+            </div>
+        }
+        <form id="formProject" name="formProject">
+            <h5 class="card-subtitle">Project info</h5>
+            <div class="card-text">
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="ProjectId" />
+                <div class="form-group row">
+                    <label asp-for="DeveloperCompanyId" class="col-form-label col-2 text-right"></label>
+                    <div class="col-4">
+                        <select class="form-control" asp-for="DeveloperCompanyId" asp-items="@(new SelectList(ViewBag.DeveloperCompany,"DeveloperCompanyId", "DeveloperCompanyName"))">
+                            <option value="">Select</option>
+                        </select>
+                        <span asp-validation-for="DeveloperCompanyId" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label asp-for="PlaceName" class="col-form-label col-2 text-right"></label>
+                    <div class="col-4">
+                        <input asp-for="PlaceName" class="form-control" />
+                        <span asp-validation-for="PlaceName" class="text-danger"></span>
+                    </div>
+                </div>
+
+               
+
+
+
+            </div>
+            <h5 class="card-subtitle">Buildings</h5>
+            <div class="card-text">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Building Name</th>
+                            <th>Address </th>
+                            <th>Total Floor</th>
+                            <th>Flat Size</th>
+                            <th>Flat Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var s in Model.Buildings)
+                        {
+                            @await Html.PartialAsync("_BuildingEditRow", s)
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </form>
+        <div class="d-flex justify-content-end">
+            <input type="button" value="Update data" class="btn btn-primary" id="save" />
+        </div>
+    </div>
+    <div class="card-footer">
+
+        <div class="d-flex">
+            <a class="card-link" asp-action="Index"><span class="fa fa-long-arrow-left"></span> Back to list</a>
+            <a class="card-link ml-auto" asp-action="Index">Assign project <span class="fa fa-long-arrow-right"></span></a>
+        </div>
+
+    </div>
+</div>
+
+
+@section styles {
+
+    <environment include="Development">
+        <link href="~/libs/fontawesome/css/font-awesome.css" rel="stylesheet" />
+        <link href="~/libs/gijgo/css/gijgo.css" rel="stylesheet" />
+        <link href="~/libs/bs4-toast/toast.min.css" rel="stylesheet" />
+    </environment>
+}
+@section scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="~/libs/bs4-toast/toast.min.js"></script>
+    <script src="~/libs/gijgo/js/gijgo.js"></script>
+    <script>
+        $(document).ready(() => {
+            var data = {
+                Buildings: []
+            };
+            
+            $("button.building-del").click(function () {
+                $(this).closest("tr").remove();
+            });
+            $("#save").click(() => {
+                console.log('ok');
+                data.ProjectId = $("#ProjectId").val();
+                data.DeveloperCompanyId = $("#DeveloperCompanyId").val();
+                data.PlaceName = $("#PlaceName").val();
+               
+                var ids = $("input[name='BuildingId']");
+                var names = $("input[name='BuildingName']");
+                var addresses = $("input[name='Address']");
+                var totalFloors = $("input[name='TotalFloor']");
+                var flatSizes = $("input[name='FlatSize']");
+                var flatPrices = $("input[name='FlatPrices']");
+                $.each(ids, function (i, el) {
+                    data.Buildings.push({
+                        BuildingId: $(el).val(),
+                        BuildingName:$(names[i]).val(),
+                        Address: $(addresses[i]).val(),
+                        TotalFloor: $(totalFloors[i]).val(),
+                         FlatSize: $(flatSizes[i]).val(),
+                          FlatPrice: $(flatPrices[i]).val()
+                    });
+                });
+                console.log(data);
+                $.ajax({
+                    type: "POST",
+                    url: "/Projects/SaveProjects",
+                    contentType: "application/json",
+                    dataType: "json",
+                    data: JSON.stringify(data)
+                }).done(r => {
+                    console.log(r);
+                    if (r.success == true) {
+                        $.toast({
+                            title: 'Success!',
+                            subtitle: 'Saved',
+                            content: 'Data saved successfully.',
+                            type: 'success',
+                            delay: 3000,
+                            dismissible: true,
+
+                            // is stackable?
+                            stackable: true,
+                            position: 'top-right'
+
+                        });
+                    }
+                    else {
+                        $.toast({
+                            title: 'Error!',
+                            subtitle: 'Failed.',
+                            content: 'Data update failed.',
+                            type: 'warning',
+                            delay: 3000,
+                            dismissible: true,
+
+                            // is stackable?
+                            stackable: true,
+                            position: 'top-center bottom-right'
+
+                        });
+                    }
+                }).fail(err => {
+                    console.log(err);
+                });
+            });
+        });
+    </script>
+
+}
+

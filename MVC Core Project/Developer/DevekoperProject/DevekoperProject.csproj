@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\libs\Images\6c9bb5b3a3a1c65df0e440490eae869b.jpg" />
+    <None Include="wwwroot\libs\Images\building1.jpg" />
+    <None Include="wwwroot\libs\Images\building2.jpeg" />
+    <None Include="wwwroot\libs\Images\building3.jpg" />
+    <None Include="wwwroot\libs\Images\building4.jpg" />
+    <None Include="wwwroot\libs\Images\building5.jpg" />
+    <None Include="wwwroot\libs\Images\building6.jpg" />
+    <None Include="wwwroot\libs\Images\building7.jpg" />
+    <None Include="wwwroot\libs\Images\building8.jpg" />
+    <None Include="wwwroot\libs\Images\building9.jpg" />
+    <None Include="wwwroot\libs\Images\cc3ace7afea4701d1473100d00d4a557.jpg" />
+    <None Include="wwwroot\libs\Images\ContactUs.jpg" />
+    <None Include="wwwroot\libs\Images\duplex-house-design-bangladesh-youtube_188730.jpg" />
+    <None Include="wwwroot\libs\Images\unnamed.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="X.PagedList" Version="8.0.7" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="8.0.7" />
+  </ItemGroup>
+
+</Project>

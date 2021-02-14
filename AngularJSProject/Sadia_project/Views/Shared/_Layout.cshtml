@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+<html ng-app="projectApp">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+    @Styles.Render("~/Content/css")
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/datepicker/angular-datepicker.css" rel="stylesheet" />
+ 
+</head>
+<body ng-controller="outerCtrl">
+    <div class="navbar navbar-light bg-white fixed-top navbar-expand-md shadow-sm border-bottom">
+
+
+        @Html.ActionLink("Company Profile", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                <li class="nav-item"><a ng-href="#!/companies" class="nav-link">Companies</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="container-fluid body-content">
+        @RenderBody()
+
+    </div>
+    <hr />
+    <footer class="container-fluid">
+        <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+    </footer>
+    <div class="modal" tabindex="-1" role="dialog" id="delCompanyModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirm Delete!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure to delete?</p>
+                    <div class="text-danger">This company and its products & services will be deleted?</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger" ng-click="doDeleteCompany()">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="delProductModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirm Delete!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure to delete?</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger" ng-click="doDeleteProduct()">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="delServiceModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirm Delete!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure to delete?</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger" ng-click="doDeleteService()">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular-animate.js"></script>
+    <script src="~/Scripts/angular-route.js"></script>
+    <script src="~/Scripts/angular-messages.js"></script>
+    <script src="~/Content/ui-bootstrap4/ui-bootstrap.js"></script>
+    <script src="~/Content/ui-bootstrap4/ui-bootstrap-tpls.js"></script>
+    <script src="~/Content/datepicker/angular-datepicker.js"></script>
+    <script src="~/Scripts/angular-sanitize.js"></script>
+
+
+    <script>
+        angular.module("projectApp", ['ngRoute', 'ngMessages', 'ngSanitize', 'ngAnimate', "ui.bootstrap", '720kb.datepicker'])
+            .constant("apiUrl", "/api/")
+            .constant("customUrl", "/custom/")
+            .config(($routeProvider) => {
+                $routeProvider
+                    .when("/home", {
+                        templateUrl: "/App/views/home.html"
+                    })
+                    .when("/companies", {
+                        templateUrl: "/App/views/companies.html"
+                    })
+                    .when("/createCompany", {
+                        templateUrl: "/App/views/createCompany.html"
+                    })
+                    .when("/editCompany/:id", {
+                        templateUrl: "/App/views/editCompany.html"
+                    })
+                    .when("/editService/:id", {
+                        templateUrl: "/App/views/editService.html"
+                    })
+                    .when("/createService", {
+                        templateUrl: "/App/views/createService.html"
+                    })
+                    .when("/editProduct/:id", {
+                        templateUrl: "/App/views/editProduct.html"
+                    })
+                    .when("/createProduct", {
+                        templateUrl: "/App/views/createProduct.html"
+                    })
+                    .otherwise({ redirectTo: '/home' });
+
+            })
+            .controller("outerCtrl", ($scope, ApiService, apiUrl, customUrl) => {
+                //////////////////////////////
+                $scope.erroMsg = null;
+                $scope.model = {};
+                $scope.currentPage = 1;
+                $scope.totalItems = 1;
+                ////////////////////////////////////
+                //evets
+                $scope.$on('serviceUpdated', (evt, data) => {
+                    //console.log('Event');
+                    //console.log(data.CompanyId);
+                    //console.log('Service Id' + data.ServiceId);
+                    angular.forEach($scope.model.companies, function (v, k) {
+                        if (v.company.CompanyId == data.CompanyId) {
+                            angular.forEach(v.company.Services, function (v1, k1) {
+                                if (v1.ServiceId == data.ServiceId) {
+                                    angular.copy(data, v1);
+                                    console.log(v1);
+                                }
+                            });
+                        }
+                    })
+                })
+                $scope.$on('serviceInserted', (evt, data) => {
+                    //console.log('Event');
+                    //console.log(data.CompanyId);
+                    //console.log('Service Id' + data.ServiceId);
+                    angular.forEach($scope.model.companies, function (v, k) {
+                        if (v.company.CompanyId == data.CompanyId) {
+                            v.company.Services.push(data);
+                        }
+                    })
+                });
+                $scope.$on('productInserted', (evt, data) => {
+                    console.log('Event');
+                    //console.log(data.CompanyId);
+                    //console.log('Service Id' + data.ServiceId);
+                    angular.forEach($scope.model.companies, function (v, k) {
+                        if (v.company.CompanyId == data.CompanyId) {
+                            v.company.Products.push(data);
+                        }
+                    })
+                });
+                $scope.$on('productUpdated', (evt, data) => {
+                    console.log('Updated');
+                    //console.log(data.CompanyId);
+                    //console.log('Service Id' + data.ServiceId);
+                    angular.forEach($scope.model.companies, function (v, k) {
+                        if (v.company.CompanyId == data.CompanyId) {
+                            angular.forEach(v.company.Products, function (v1, k1) {
+                                if (v1.ProductId == data.ProductId) {
+                                    angular.copy(data, v1);
+                                    console.log(v1);
+                                }
+                            });
+                        }
+                    })
+                })
+                $scope.$on('companyInserted', (evt, data) => {
+                    //console.log('Event');
+                    //console.log(data.CompanyId);
+                    //console.log('Service Id' + data.ServiceId);
+                    $scope.model.companies.push({ isExpanded: false, company: data });
+                })
+                $scope.$on('companyUpdated', (evt, data) => {
+                    console.log('updates');
+                    console.log(data.CompanyId);
+                    //console.log('Service Id' + data.ServiceId);
+                    angular.forEach($scope.model.companies, function (v, k) {
+                        if (v.company.CompanyId == data.CompanyId) {
+                            angular.copy(data, v.company);
+
+                        }
+                    })
+
+                })
+                ///////////////////////////////////////
+                $scope.companyToDelete = null;
+                $scope.serviceToDelete = null;
+                $scope.productToDelete = null;
+                $scope.companySource = null;
+                $scope.delIndex = null;
+                ApiService.get(customUrl + "Companies", null)
+                    .then(r => {
+                        $scope.model.companies = [];
+                        angular.forEach(r.data, (v, k) => {
+                            $scope.model.companies.push({ isExpanded: false, company: v });
+                        });
+                        console.log($scope.model.companies);
+                        $scope.totalItems = $scope.model.companies.length;
+                    }, err => {
+                        console.log(err);
+                    });
+                $scope.expandChild = (index) => {
+                    console.log(index);
+                    $scope.model.companies[index].isExpanded = !$scope.model.companies[index].isExpanded;
+                }
+                $scope.deleteCompany = (index) => {
+                    $scope.companyToDelete = index;
+                    $("#delCompanyModal").modal('show');
+                }
+                $scope.doDeleteCompany = () => {
+                    var companyId = $scope.model.companies[$scope.companyToDelete].company.CompanyId;
+                    ApiService.delete(apiUrl + "Companies/" + companyId, null)
+                        .then(r => {
+                            $scope.model.companies.splice($scope.companyToDelete, 1);
+                            $("#delCompanyModal").modal('hide');
+                        }, err => {
+                            console.log(err);
+                        });
+                }
+                $scope.selectPage = function (pageNo) {
+                    $scope.currentPage = pageNo;
+                };
+                $scope.delCompanyProduct = (companyid, pid, index) => {
+                    console.log(companyid);
+                    
+                    $scope.productToDelete = pid;
+                    $scope.companySource = companyid;
+                    $scope.delIndex = index;
+                    console.log($scope.companySource);
+                    $("#delProductModal").modal('show');
+                }
+                $scope.delCompanyService = (companyid, sid, index) => {
+                    $scope.serviceToDelete = sid;
+                    $scope.companySource = companyid;
+                    $scope.delIndex = index;
+                    console.log($scope.companySource);
+                    $("#delServiceModal").modal('show');
+                }
+                $scope.doDeleteProduct = () => {
+                    ApiService.delete(apiUrl + "Products/" + $scope.productToDelete, null)
+                        .then(r => {
+                            angular.forEach($scope.model.companies, (v, k) => {
+                               
+                                if (v.company.CompanyId == $scope.companySource) {
+                                    
+                                    v.company.Products.splice($scope.delIndex, 1);
+                                }
+                            })
+                            $scope.productToDelete = null;
+                            $scope.companySource = null;
+                            $scope.delIndex = null;
+                          
+                            $("#delServiceModal").modal('hide');
+                        }, err => { })
+                }
+                $scope.doDeleteService = () => {
+                    ApiService.delete(apiUrl + "Services/" + $scope.serviceToDelete, null)
+                        .then(r => {
+                            angular.forEach($scope.model.companies, (v, k) => {
+
+                                if (v.company.CompanyId == $scope.companySource) {
+
+                                    v.company.Services.splice($scope.delIndex, 1);
+                                }
+                            })
+                            $scope.serviceToDelete = null;
+                            $scope.companySource = null;
+                            $scope.delIndex = null;
+
+                            $("#delServiceModal").modal('hide');
+                        }, err => { })
+                }
+            });
+    </script>
+    <script src="~/App/Services/ApiService.js"></script>
+
+    <script src="~/App/filters/filters.js"></script>
+    <script src="~/App/controllers/serviceController.js"></script>
+    <script src="~/App/controllers/createService.js"></script>
+    <script src="~/App/controllers/createCompanyCtrl.js"></script>
+    <script src="~/App/controllers/editCompanyCtrl.js"></script>
+    <script src="~/App/controllers/createProduct.js"></script>
+    <script src="~/App/controllers/editProduct.js"></script>
+</body>
+</html>

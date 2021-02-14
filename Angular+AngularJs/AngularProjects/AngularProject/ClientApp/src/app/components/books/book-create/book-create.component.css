@@ -1,0 +1,17 @@
+.form-container {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.form-group{
+  width:60%;
+}
+.f-w {
+  padding: 10px 15px;
+  width: calc(100% - 30px);
+}
+@media(maxwidth:"700px") {
+  .form-group {
+    width: 95%;
+  }
+}

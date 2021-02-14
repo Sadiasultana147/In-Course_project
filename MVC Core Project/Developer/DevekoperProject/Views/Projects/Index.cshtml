@@ -1,0 +1,141 @@
+﻿@model IEnumerable<DevekoperProject.Models.Project>
+@{
+    ViewData["Title"] = "Index";
+}
+
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Mvc.Core.Fluent
+@using X.PagedList.Web.Common
+
+
+<div class="card">
+    <div class="card-header">
+        <h4 style="color:mediumvioletred" class="card-title">Project List</h4>
+    </div>
+    <div class="card-body">
+        <div class="d-flex justify-content-end mb-1">
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger">Action</button>
+                <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" asp-action="Create" asp-controller="Projects">Create Project</a>
+                    
+                    <a class="dropdown-item" asp-action="CreateDeveloperCompanyWithProject" asp-controller="DeveloperCompany">Create Company with Project</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-text">
+            <table class="table table-danger">
+                <thead class="table-hover">
+                    <tr>
+                        <th></th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.PlaceName)
+                        </th>
+                        
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeveloperCompany.DeveloperCompanyName)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td style="width:50px;">
+                                <button type="button" class="btn btn-danger  project" data-project-pk="@item.ProjectId"><span class="fa fa-plus-square"></span></button>
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PlaceName)
+                            </td>
+                            
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DeveloperCompany.DeveloperCompanyName)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-controller="Projects" asp-route-id="@item.ProjectId" class="btn btn-success btn-sm rounded-circle"><span class="fa fa-pencil"></span></a>
+
+                                <a asp-action="Delete" asp-controller="Projects" asp-route-id="@item.ProjectId" class="btn btn-danger btn-sm rounded-circle"><span class="fa fa-trash"></span></a>
+                            </td>
+                        </tr>
+                        <tr style="display:none;" id="project-@item.ProjectId" class="child-row">
+                            <td>&nbsp;</td>
+                            <td colspan="4">
+                                <table class="table table-bordered">
+                                    <thead class="thead-light">
+                                        <tr>
+
+                                            <th>Building Name</th>
+                                            <th>Address</th>
+                                            <th>Total Floor</th>
+                                            <th>Flat Size</th>
+                                            <th>Flat Price </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var child in item.Buildings)
+                                        {
+                                        <tr>
+
+                                            <td>@child.BuildingName</td>
+                                            <td>@child.Address</td>
+                                            <td>@child.TotalFloor</td>
+                                            <td>@child.FlatSize</td>
+                                            <td>@child.FlatPrice</td>
+                                        </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div class="d-flex justify-content-end">
+                @(Html.Pager((IPagedList)Model)
+                      .Url(page => Url.Action("Index", "Projects", new { page = page }))
+                      .Build()
+                )
+            </div>
+        </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="d-flex">
+            <a class="card-link" asp-action="Index"><span class="fa fa-long-arrow-left"></span> Back to list</a>
+            <a class="card-link ml-auto" asp-action="Create" asp-controller="Projects">Assign Project <span class="fa fa-long-arrow-right"></span></a>
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+    <environment include="Development">
+
+        <script>
+            $(document).ready(() => {
+                $("button.project").click(function () {
+                    console.log('ok')
+                    var id = $(this).data("project-pk");
+                    $("#project-" + id).toggle();
+                    $(this).find("span").toggleClass("fa-plus-square fa-minus-square");
+                });
+            });
+        </script>
+    </environment>
+}
+@section styles{
+    <environment include="Development">
+        <link href="~/libs/PagedList/PagedList.css" rel="stylesheet" />
+        <link href="~/libs/fontawesome/css/font-awesome.css" rel="stylesheet" />
+
+
+    </environment>
+}
+

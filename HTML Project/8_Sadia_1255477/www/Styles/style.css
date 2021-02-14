@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 96%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.app-nav {
+  background-color: Blue;
+  color: white;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-col {
+  width: 200px;
+  height: 100vh;
+  background-color: #ededed;
+}
+.main-col {
+  width: calc(100% - 200px);
+}
+.nav-header {
+  margin: 0;
+  padding: 15px;
+  background-color: Red;
+  color: white;
+  margin: 0;
+  border-top-left-radius: 5px;
+}
+.nav-menu {
+  list-style: none;
+}
+.nav-menu li {
+  border-bottom: solid 1px #e7e7e7;
+  background-color: white;
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 15px 5px 15px 7px;
+}
+.nav-menu li a:hover {
+  background-color: #e4e4e4;
+}
+.app-header {
+  margin: 0;
+  background-color: blue;
+  color: white;
+  border-top-right-radius: 5px;
+  display: flex;
+}
+.brand {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  padding: 15px;
+  margin: 0;
+}
+
+.content {
+  padding: 0;
+}
+.full-height {
+  min-height: calc(100vh - 125px);
+}
+.footer {
+  padding: 30px 15px 20px 15px;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+/*
+    Hero
+*/
+.baby {
+  background-color: #be8abf;
+  color: #fff;
+}
+.baby .title {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.baby .subtitle {
+  font-size: 1.25rem;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+.baby .body {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+.profile-pic {
+  border-radius: 60%;
+}
+.content-wrap {
+  padding: 15px;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+/*Table*/
+.table {
+  width: 100%;
+}
+.table thead th {
+  border-bottom: solid 2px #beebe9;
+  padding: 10px;
+  text-align: left;
+  font-weight: 600;
+}
+.table tbody td {
+  border-bottom: solid 1px #beebe9;
+  padding: 7px;
+}
+.btn-circle {
+  background-color: pink;
+  text-decoration: none;
+  color: darkslateblue;
+  font-weight: 700;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+}

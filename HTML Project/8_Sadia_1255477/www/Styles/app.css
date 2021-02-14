@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 97%;
+  margin: 0 auto;
+}
+.images {
+  width: 90%;
+  display: flex;
+  flex-flow: column;
+  max-width: 990px;
+  margin: auto;
+}
+/*
+ App Bar
+*/
+.app-nav {
+  background-color: Blue;
+  color: white;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content {
+  padding: 0;
+}
+.book {
+  background-color: #ff9999;
+  color: #fff;
+}
+.categories {
+  color: Yellow;
+  text-decoration: none;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 30px;
+}
+.app-nav ul {
+  list-style: none;
+  margin-left: auto;
+}
+.app-nav ul li {
+  display: inline-block;
+  text-align: center;
+}
+.app-nav ul li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  width: 120px;
+  padding: 15px 5px;
+  text-align: center;
+}
+.app-nav ul li a:hover {
+  background-color: #65587f;
+}
+/*
+    Footer
+    */
+.footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-top: solid 1px #beebe9;
+}
+/*
+helpers
+*/
+.full-height {
+  min-height: calc(100vh - 125px);
+}
+.body-content {
+  margin-top: 30px;
+}
+/*
+buttons
+*/
+.btn {
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+.btn-primary {
+  background-color: #142850;
+  color: white;
+}
+.btn-default {
+  background-color: green;
+  color: White;
+}
+
+/*Table*/
+.table {
+  width: 100%;
+}
+.table thead th {
+  border-bottom: solid 2px #beebe9;
+  padding: 10px;
+  text-align: left;
+  font-weight: 600;
+}
+.table tbody td {
+  border-bottom: solid 1px #beebe9;
+  padding: 7px;
+}
+.btn-circle {
+  background-color: pink;
+  text-decoration: none;
+  color: darkslateblue;
+  font-weight: 700;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+}

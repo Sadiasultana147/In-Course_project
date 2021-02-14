@@ -1,0 +1,67 @@
+﻿<div ng-controller="createProductCtrl">
+    <div class="card">
+        <div class="card-header">
+            <h3>Create Product</h3>
+        </div>
+        <div class="card-body">
+            <div ng-show="newProductMsg" class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Success!</strong> Data inserted.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="card-text">
+                <form name="frmCreateProduct" ng-submit="insertProduct(frmCreateProduct)" novalidate>
+                    <div class="form-group row">
+                        <label class="col-form-label col-form-label-sm col-2">Company</label>
+                        <div class="col-4">
+                            <select name="companyId" ng-options="item.company.CompanyId as item.company.CompanyName for item in model.companies" class="form-control form-control-sm" ng-model="newProduct.CompanyId" required>
+                                <option value="">Select</option>
+                            </select>
+                            <div class="text-danger" ng-show="frmCreateProduct.companyId.$error" ng-if="!frmCreateProduct.productName.$pristine">
+                                <div ng-show="frmCreateProduct.companyId.$error.required">This field is requred.</div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-form-label-sm col-2">Product Name</label>
+                        <div class="col-4">
+                            <input name="productName" type="text" class="form-control form-control-sm" ng-model="newProduct.ProductName" required maxlength="40" />
+                            <div class="text-danger" ng-show="frmCreateProduct.productName.$error && !frmCreateProduct.productName.$pristine">
+                                <div ng-show="frmCreateProduct.productName.$error.required">This field is requred.</div>
+                                <div ng-show="frmCreateProduct.productName.$error.maxlength">This field is requred.</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-form-label-sm col-2">Product Type</label>
+                        <div class="col-4">
+                            <select name="type"
+                                    class="form-control form-control-sm"
+                                    ng-model="newProduct.Type"
+                                    required>
+                                <option value="">Select</option>
+                                <option value="Hardware">Hardware</option>
+                                <option value="Software">Software</option>
+                                <option value="Device">Device</option>
+                            </select>
+
+                        </div>
+                    </div>
+                    <div class="form-group row">
+
+                        <div class="col-4 offset-2">
+                            <button type="submit" class="btn btn-primary" ng-disabled="!frmCreateProduct.productName.$pristine">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="card-footer">
+            <a ng-href="#!/companies"><i class="fa fa-long-arrow-left"></i> Back to compnay list</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="bookApp">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <environment include="Development">
+        <link href="~/libs/bootstrap/css/bootstrap.css" rel="stylesheet" />
+        <script src="~/libs/popper/umd/popper.js"></script>
+        <script src="~/libs/jquery/jquery.js"></script>
+        <style>
+            body {
+                padding-top: 70px;
+            }
+        </style>
+        <link href="~/libs/fontawesome/css/font-awesome.css" rel="stylesheet" />
+    </environment>
+</head>
+<body ng-controller="bookCtrl">
+    <nav class="navbar navbar-dark bg-danger navbar-expand-md fixed-top">
+        <a class="navbar-brand" asp-controller="Home" asp-action="Index">Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav">
+                <li class="nav-item"> <a class="nav-link" ng-href="#!/home">Home</a></li>
+                <li class="nav-item"> <a class="nav-link" ng-href="#!/categories">Categories & Books</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        @RenderBody()
+    </div>
+    <footer class="container-fluid bg-light">
+        @DateTime.Now.Year - &copy;AngularJS Application
+    </footer>
+    <environment include="Development">
+        <script src="~/libs/bootstrap/js/bootstrap.js"></script>
+
+        <script src="~/libs/angularjs/angular.js"></script>
+        <script src="~/libs/angularjs/angular-animate.js"></script>
+        <script src="~/libs/angularjs/angular-aria.js"></script>
+        <script src="~/libs/angularjs/angular-messages.js"></script>
+        <script src="~/libs/angularjs/angular-route.js"></script>
+        <script>
+            angular.module("bookApp", ['ngRoute'])
+                .config(($routeProvider) => {
+                    $routeProvider.when('/home', {
+                        templateUrl: '/App/Views/home.html'
+                    })
+                        .when('/categories', { templateUrl: '/App/Views/categories.html' })
+                       
+                        .otherwise({ redirectTo: '/home' })
+                })
+                .controller("bookCtrl", ($scope, categorySvc) => {
+                    $scope.model = {};
+                    categorySvc.getCategoriesWithBook()
+                        .then(r => {
+                            $scope.model.categories = [];
+                            angular.forEach(r.data, (v, k) => {
+                                $scope.model.categories.push({ isExpanded: false, category: v });
+                            })
+                        }, err => {
+                            console.log(err);
+                        })
+                });
+        </script>
+        <script src="~/App/Services/categoryService.js"></script>
+    </environment>
+</body>
+</html>

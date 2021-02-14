@@ -1,0 +1,40 @@
+<mat-card class="mat-elevation-z8">
+  <mat-card-header>
+    <mat-card-title>Edit  Book</mat-card-title>
+    <mat-card-subtitle>Fill up the form</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content class="form-container">
+    <form [formGroup]="bookForm" class="form-group" (ngSubmit)="onSubmit()">
+      <mat-form-field class="f-w">
+        <mat-label>Book Name</mat-label>
+        <input matInput formControlName="BookName">
+        <mat-error *ngIf="f.BookName.touched && f.BookName.hasError('required')">Book name required.</mat-error>
+      </mat-form-field>
+      <mat-form-field class="f-w">
+        <mat-label>Author</mat-label>
+        <input matInput formControlName="Author">
+        <mat-error *ngIf="f.Author.touched && f.Author.hasError('required')">Author required.</mat-error>
+      </mat-form-field>
+      <mat-form-field class="f-w">
+        <mat-label>Price</mat-label>
+        <input matInput formControlName="Price">
+        <mat-error *ngIf="f.Price.touched && f.Price.hasError('required')">Price required.</mat-error>
+      </mat-form-field>
+      <mat-form-field class="f-w">
+        <mat-label>Category</mat-label>
+
+        <mat-select formControlName="CategoryId">
+
+          <mat-option *ngFor="let op of categories" [value]="op.CategoryId">{{op.CategoryName}}</mat-option>
+        </mat-select>
+        <mat-error *ngIf="f.CategoryId.touched && f.CategoryId.hasError('required')">Category required.</mat-error>
+      </mat-form-field>
+      <div class="f-w">
+        <button type="submit" mat-raised-button color="primary">Save Data</button>
+      </div>
+    </form>
+  </mat-card-content>
+  <mat-card-footer>
+    <a mat-flat-button [routerLink]="['/categories']"><mat-icon>keyboard_arrow_left</mat-icon> Back to list</a>
+  </mat-card-footer>
+</mat-card>

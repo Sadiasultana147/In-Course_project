@@ -1,0 +1,170 @@
+﻿@model IEnumerable<DeveloperCompany>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Mvc.Core.Fluent
+@using X.PagedList.Web.Common
+<div class="card">
+    <div class="card-body">
+        <h4 style="color:mediumvioletred" class="card-title">Companies</h4>
+        <div class="d-flex justify-content-end">
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger">Action</button>
+                <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" asp-action="CreateDeveloperCompanyWithProject" asp-controller="DeveloperCompany">Create Company with Project</a>
+
+                   
+                    <a class="dropdown-item" asp-action="Create" asp-controller="Projects">Create Project with Building</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-text">
+            <table class="table table-danger">
+                <thead class="table-hover">
+                    <tr>
+                        <th style="width:50px">
+                            <button type="button" class="btn btn-danger all"><span class="fa fa-plus"></span></button>
+                        </th>
+                        <th>DeveloperCompany ID</th>
+                        <th>DeveloperCompany Name</th>
+                        <th>Established  Date</th>
+                        <th></th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td style="width:50px">
+                            <button type="button" class="btn btn-sm company" data-company-pk="@item.DeveloperCompanyId"><span class="fa fa-plus-square"></span></button>
+                        </td>
+                        <td>@item.DeveloperCompanyId</td>
+                        <td>@item.DeveloperCompanyName</td>
+                        <td>@item.EstablishedDate </td>
+                        <td>
+                            <a asp-action="EditWithProject" asp-controller="DeveloperCompany" asp-route-id="@item.DeveloperCompanyId" class="btn btn-primary btn-sm rounded-circle"><span class="fa fa-pencil"></span></a>
+                            
+                        </td>
+                    </tr>
+                        <tr style="display: none" id="company-@item.DeveloperCompanyId" class="child-row">
+                            <td></td>
+                            <td colspan="3">
+                                <table class="table table-bordered">
+                                    <thead class="thead-light">
+                                        <tr>
+                                            <th style="width:50px">
+
+                                            </th>
+                                            <th>Place Name</th>
+                                           
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var child in item.Projects)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    <button type="button" class="btn btn-sm course" data-project-pk="@child.ProjectId"><span class="fa fa-plus-square"></span></button>
+                                                </td>
+                                                <td>@child.PlaceName</td>
+                                               
+                                            </tr>
+                                            <tr style="display:none;" id="project-@child.ProjectId" class="child-row">
+                                                <td>&nbsp;</td>
+                                                <td colspan="2">
+                                                    <table class="table table-bordered">
+                                                        <thead class="thead-light">
+                                                            <tr>
+
+                                                                <th>Building Name</th>
+                                                                <th>Address </th>
+                                                                <th>Total Floor</th>
+                                                                <th>Flat Size </th>
+                                                                <th>Flat Price  </th>
+
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            @foreach (var grand in child.Buildings)
+                                                            {
+                                                            <tr>
+
+                                                                <td>@grand.BuildingName</td>
+                                                                <td>@grand.Address</td>
+                                                                <td>@grand.TotalFloor</td>
+                                                                <td>@grand.FlatPrice</td>
+                                                                <td>@grand.FlatPrice</td>
+                                                            </tr>
+                                                            }
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card-footer">
+        <div class="d-flex justify-content-end">
+            @(Html.Pager((IPagedList)Model)
+                                        .Url(page => Url.Action("Index", "DeveloperCompany", new { page = page }))
+                                        .Build()
+            )
+        </div>
+
+    </div>
+</div>
+
+
+@section styles{
+    <environment include="Development">
+        <link href="~/libs/PagedList/PagedList.css" rel="stylesheet" />
+        <link href="~/libs/fontawesome/css/font-awesome.css" rel="stylesheet" />
+        <script>
+        $(document).ready(() => {
+            $("button.company").click(function () {
+                var id = $(this).data("company-pk");
+                $("#company-" + id).toggle();
+                $(this).find("span").toggleClass("fa-plus-square fa-minus-square");
+            });
+            $("button.project").click(function () {
+                var id = $(this).data("project-pk");
+                $("#project-" + id).toggle();
+                $(this).find("span").toggleClass("fa-plus-square fa-minus-square");
+            });
+            $("button.all").click(function () {
+                if ($(this).find("span").hasClass("fa-plus")) {
+                    $("tr.child-row").show();
+                    $("button.project span")
+                        .removeClass("fa-plus-square")
+                        .addClass("fa-minus-square");
+                    $("button.company span")
+                        .removeClass("fa-plus-square")
+                        .addClass("fa-minus-square");
+                }
+                else {
+                    $("tr.child-row").hide();
+                    $("button.project span").removeClass("fa-minus-square").addClass("fa-plus-square");
+                    $("button.company span").removeClass("fa-minus-square").addClass("fa-plus-square");
+                }
+                $(this).find("span").toggleClass("fa-plus fa-minus");
+            })
+        })
+        </script>
+    </environment>
+}
+

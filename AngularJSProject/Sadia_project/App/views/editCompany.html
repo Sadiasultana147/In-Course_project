@@ -1,0 +1,340 @@
+﻿<div ng-controller="editCompanyCtrl">
+
+    <div class="card">
+        <div class="card-header">
+            <h2 class="card-title">Edit Company</h2>
+        </div>
+        <div class="card-body">
+            <div ng-show="companyEditMsg" class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Success!</strong> Data updated.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="card-text">
+
+                <form name="frmEditCompany" id="frmEditCompany" ng-submit="editDone(frmEditCompany)" novalidate>
+                    <h3>Company Details</h3>
+                    <div class="form-group row">
+                        <label for="" class="col-form-label col-form-label-sm col-2">Company Name</label>
+                        <div class="col-4">
+                            <input name="companyName"
+                                   ng-model="companyToEdit.CompanyName"
+                                   class="form-control form-control-sm"
+                                   ng-maxlength="40"
+                                   required />
+                            <div ng-messages="frmEditCompany.companyName.$error"
+                                 ng-show="frmEditCompany.companyName.$invalid && !frmEditCompany.companyName.$pristine">
+                                <div class="text-danger" ng-message="required">
+                                    This field is requred.
+                                </div>
+                                <div class="text-danger" ng-message="maxlength">
+                                    Field value too long.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-form-label col-form-label-sm col-2">Address</label>
+                        <div class="col-4">
+                            <input name="address"
+                                   ng-model="companyToEdit.Address"
+                                   class="form-control form-control-sm"
+                                   ng-maxlength="150" />
+                            <div ng-messages="frmEditCompany.address.$error"
+                                 ng-show="frmEditCompany.address.$invalid && !frmEditCompany.address.$pristine">
+
+                                <div class="text-danger" ng-message="maxlength">
+                                    Field value too long.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-form-label col-form-label-sm col-2">Eshtablished</label>
+                        <div class="col-4">
+
+                            <datepicker date-format="yyyy-MM-dd">
+                                <div class="input-group">
+                                    <input class="form-control form-control-sm" ng-model="companyToEdit.Eshtablished" name="eshtablished" required />
+                                    <span class="input-group-append" style="cursor: pointer">
+                                        <button class="btn btn-secondary btn-sm"><i class="fa fa-lg fa-calendar"></i></button>
+                                    </span>
+                                </div>
+                            </datepicker>
+                            <!--<input type="date" name="eshtablished" ng-model="companyToEdit.Eshtablished"
+                           class="form-control form-control-sm"
+                           close-text="Close" />
+
+                    <span class="input-group-btn">
+                        <button type="button"
+                                class="btn btn-secondary btn-sm">
+                            <i class="fa fa-calendar"></i>
+                        </button>
+                    </span>-->
+
+
+                            <div ng-messages="frmEditCompany.eshtablished.$error"
+                                 ng-show="frmEditCompany.eshtablished.$invalid && !frmEditCompany.eshtablished.$pristine">
+                                <div class="text-danger" ng-message="required">
+                                    This field is requred.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-form-label col-form-label-sm col-2">E-mail</label>
+                        <div class="col-4">
+                            <input type="email"
+                                   name="contactEmail"
+                                   ng-model="companyToEdit.ContactEmail"
+                                   class="form-control form-control-sm"
+                                   required />
+                            <div ng-messages="frmEditCompany.contactEmail.$error"
+                                 ng-show="frmEditCompany.contactEmail.$invalid && frmEditCompany.contactEmail.$touched">
+                                <div class="text-danger" ng-message="required">
+                                    This field is requred.
+                                </div>
+                                <div class="text-danger" ng-message="email">
+                                    Invalid email address.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-form-label col-form-label-sm col-2">Web Address</label>
+                        <div class="col-4">
+                            <input type="url"
+                                   name="web"
+                                   ng-model="companyToEdit.Web"
+                                   class="form-control form-control-sm"
+                                   required />
+                            <div ng-messages="frmEditCompany.web.$error"
+                                 ng-show="frmEditCompany.web.$invalid && frmEditCompany.web.$touched">
+                                <div class="text-danger" ng-message="required">
+                                    This field is requred.
+                                </div>
+                                <div class="text-danger" ng-message="url">
+                                    Invalid url. Url must start with http:// or https://
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-1">
+                        <h3 class="card-subtitle">Products</h3>
+                        <span style="flex:auto"></span>
+                        <button type="button" class="btn btn-success btn-sm" ng-click="openAddCompanyProductDialog()"><span class="fa fa-plus"></span></button>
+                    </div>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Type</th>
+                                <th style="width:90px" class="text-center">
+
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="item in companyToEdit.Products">
+                                <td>
+                                    <input name="productName[{{$index}}]"
+                                           class="form-control form-control-sm"
+                                           ng-model="item.ProductName"
+                                           required />
+                                    <div ng-messages="frmEditCompany['productName[' + $index + ']'].$error"
+                                         ng-show="frmEditCompany['productName[' + $index + ']'].$invalid && !frmEditCompany['productName[' + $index + ']'].$pristine">
+                                        <div class="text-danger" ng-message="required">
+                                            This field is requred
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <select name="type[{{$index}}]"
+                                            class="form-control form-control-sm"
+                                            ng-model="item.Type"
+                                            required>
+                                        <option value="">Select</option>
+                                        <option value="Hardware">Hardware</option>
+                                        <option value="Software">Software</option>
+                                        <option value="Device">Device</option>
+                                    </select>
+                                    <div ng-messages="frmEditCompany['type[' + $index + ']'].$error"
+                                         ng-show="frmEditCompany['type[' + $index + ']'].$invalid && !frmEditCompany['type[' + $index + ']'].$pristine">
+                                        <div class="text-danger" ng-message="required">
+                                            This field is requred.
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+
+                                    <button type="button" ng-click="deleteCompanyProduct($index)" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                    <div class="d-flex mb-1">
+                        <h3 class="card-subtitle">Services</h3>
+                        <span style="flex:auto"></span>
+                        <button type="button" class="btn btn-success btn-sm" ng-click="openAddCompanyServiceDialog()"><span class="fa fa-plus"></span></button>
+                    </div>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Service Name</th>
+                                <th>Is Contactual?</th>
+                                <th style="width:90px;"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="item in companyToEdit.Services">
+                                <td>
+                                    <input name="serviceName[{{$index}}]"
+                                           class="form-control form-control-sm"
+                                           ng-model="item.ServiceName"
+                                           required />
+                                    <div ng-messages="frmEditCompany['serviceName[' + $index + ']'].$error"
+                                         ng-show="frmEditCompany['serviceName[' + $index + ']'].$invalid && !frmEditCompany['serviceName[' + $index + ']'].$pristine">
+                                        <div class="text-danger" ng-message="required">
+                                            This field is requred
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="isContactual[{{$index}}]"
+                                           ng-model="item.IsContactual" />
+
+                                </td>
+                                <td class="text-center">
+
+                                    <button type="button" ng-click="deleteCompanyService($index)" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="d-flex align-items-baseline">
+                <a ng-href="#!/companies"><i class="fa fa-long-arrow-left"></i> Back to company list</a>
+                <span style="flex:auto"></span>
+                <button type="submit" class="btn btn-primary" ng-disabled="frmEditCompany.$invalid" form="frmEditCompany">Update All</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Modal -->
+    <div class="modal fade" id="addCompanyProductModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add product entry</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form name="frmAddCompanyProduct" id="frmAddCompanyProduct" ng-submit="addProductToCompany(frmAddCompanyProduct)" novalidate>
+
+                        <div class="form-group">
+                            <label>Product Name</label>
+                            <input name="productName"
+                                   class="form-control form-control-sm"
+                                   ng-model="newCompanyProduct.ProductName"
+                                   ng-maxlength="40"
+                                   required />
+                            <div ng-messages="frmAddCompanyProduct.productName.$error"
+                                 ng-show="frmAddCompanyProduct.productName.$invalid && !frmAddCompanyProduct.productName.$pristine">
+                                <div class="text-danger" ng-message="required">
+                                    This field is requred
+                                </div>
+                                <div class="text-danger" ng-message="maxlength">
+                                    This field is too long
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Product Type</label>
+                            <select name="type"
+                                    class="form-control form-control-sm"
+                                    ng-model="newCompanyProduct.Type"
+                                    required>
+                                <option value="">Select</option>
+                                <option value="Hardware">Hardware</option>
+                                <option value="Software">Software</option>
+                                <option value="Device">Device</option>
+                            </select>
+
+                            <div ng-messages="frmAddCompanyProduct.type.$error"
+                                 ng-show="frmAddCompanyProduct.type.$invalid && !frmAddCompanyProduct.type.$pristine">
+                                <div class="text-danger" ng-message="required">
+                                    This field is requred
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" form="frmAddCompanyProduct" ng-disabled="frmAddCompanyProduct.$invalid">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service Modal -->
+    <div class="modal fade" id="addCompanyServiceModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add service entry</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form name="frmAddCompanyService" id="frmAddCompanyService" ng-submit="addServiceToCompany(frmAddCompanyService)" novalidate>
+
+                        <div class="form-group">
+                            <label>Service Name</label>
+                            <input name="serviceName"
+                                   class="form-control form-control-sm"
+                                   ng-model="newCompanyService.ServiceName"
+                                   ng-maxlength="40"
+                                   required />
+                            <div ng-messages="frmAddCompanyService.serviceName.$error"
+                                 ng-show="frmAddCompanyService.serviceName.$invalid && !frmAddCompanyService.serviceName.$pristine">
+                                <div class="text-danger" ng-message="required">
+                                    This field is requred
+                                </div>
+                                <div class="text-danger" ng-message="maxlength">
+                                    This field is too long
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <div class="form-check">
+                                <input type="checkbox" name="isContactual" class="form-check-input"
+                                       ng-model="newCompanyService.IsContactual"><label>Contactual</label>
+
+
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" form="frmAddCompanyService" ng-disabled="frmAddCompanyService.$invalid">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Delete Modal -->
+
+</div>
+
+

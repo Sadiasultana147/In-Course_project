@@ -1,0 +1,10 @@
+﻿
+
+.box {
+    border: 20px solid #dedede;
+    border-radius: 12px;
+    background-color: powderblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}

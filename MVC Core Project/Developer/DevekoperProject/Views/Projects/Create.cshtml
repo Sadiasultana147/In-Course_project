@@ -1,0 +1,211 @@
+﻿@model Project
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="card bg-white">
+    <div class="card-header bg-dark text-white">
+        <h4 class="card-title">Assign Building to Project</h4>
+    </div>
+    <div class="card-body">
+        <div class="card-text">
+            <h5 class="card-subtitle">DeveloperCompany and Project</h5>
+            <form id="formProject">
+                <div class="form-group row">
+                    <label asp-for="DeveloperCompanyId" class="col-form-label col-2 text-right"></label>
+                    <div class="col-4">
+                        <select class="form-control" asp-for="DeveloperCompanyId" asp-items="@(new SelectList(ViewBag.DeveloperCompany,"DeveloperCompanyId", "DeveloperCompanyName"))"></select>
+                        <span asp-validation-for="DeveloperCompanyId" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label asp-for="ProjectId" class="col-form-label col-2 text-right"></label>
+                    <div class="col-4">
+                        <select class="form-control" asp-for="ProjectId"></select>
+                        <span asp-validation-for="ProjectId" class="text-danger"></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="card-text" id="part-buildings">
+            <h5 class="card-subtitle">Buildings</h5>
+            <form id="formBuildings">
+                <table class="table table-bordered">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Building Name</th>
+                            <th>Address </th>
+                            <th>Total Floor</th>
+                            <th>Flat Size</th>
+                            <th>Flat Price</th>
+                        </tr>
+                    </thead>
+                    <tbody id="buildingTbody"></tbody>
+                    <tfoot>
+                        @await Html.PartialAsync("_BuildingAddRow", new Building { })
+                    </tfoot>
+                </table>
+            </form>
+            <div class="text-right">
+                <button type="button" class="btn btn-success" id="saveall">Save All</button>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer">
+
+        <div class="d-flex">
+            <a class="card-link" asp-action="Index"><span class="fa fa-long-arrow-left"></span> Back to list</a>
+            <a class="card-link ml-auto" asp-action="Index">Assign project <span class="fa fa-long-arrow-right"></span></a>
+        </div>
+
+    </div>
+</div>
+
+@section styles {
+
+    <environment include="Development">
+        <link href="~/libs/fontawesome/css/font-awesome.css" rel="stylesheet" />
+        <link href="~/libs/gijgo/css/gijgo.css" rel="stylesheet" />
+        <link href="~/libs/bs4-toast/toast.min.css" rel="stylesheet" />
+    </environment>
+}
+@section scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="~/libs/bs4-toast/toast.min.js"></script>
+    <script src="~/libs/gijgo/js/gijgo.js"></script>
+    <script>
+        var buildings = [];
+        $(document).ready(() => {
+            $("#part-buildings").hide();
+            var selectProject = $("#ProjectId")
+            $("#ProjectId").attr("disabled", "disabled");
+
+           
+
+            $("#DeveloperCompanyId").on("change", function () {
+
+                var developerCompanyId = $(this).val();
+                if (developerCompanyId != 0) {
+                    $.ajax({
+                        type: "GET",
+                        url: "/Projects/GetProjectOptions/" + developerCompanyId,
+                        dataType: "json"
+                    }).done((r) => {
+                        console.log(r);
+                        selectProject.empty();
+                        for (var i = 0; i < r.length; i++) {
+                            $(`<option value="${r[i].projectId}">${r[i].placeName}</option>`)
+                                .appendTo(selectProject);
+                        }
+                        selectProject.removeAttr("disabled");
+                    })
+                        .fail((err) => {
+                            console.log(err);
+                        });
+
+                }
+                else {
+                    selectProject.empty();
+                    selectProject.attr("disabled", "disabled");
+                    $("#part-buildings").hide();
+                }
+            });
+            $("#ProjectId").on("change", function () {
+                //console.log('ok')
+                if ($("#ProjectId").val() == '0' || $("#DeveloperCompanyId").val() == '0') {
+                    $("#part-buildings").hide();
+                    return;
+                }
+
+                $("#part-buildings").show();
+            });
+            $('button.building-add').click(function () {
+                var valid = $("#formBuildings").valid();
+                if (!valid) return;
+                buildings.push({
+                    ProjectId: $("#ProjectId").val(),
+                    BuildingName: $("#BuildingName").val(),
+                    Address: $("#Address").val(),
+                    TotalFloor: $("#TotalFloor").val(),
+                    FlatSize: $("#FlatSize").val(),
+                    FlatPrice: $("#FlatPrice").val()
+
+                });
+                console.log(buildings);
+                fillBuildingsTable();
+                $("#formBuildings").trigger('reset');
+                
+            });
+
+            $("#saveall").click(function () {
+                if (buildings.length == 0) {
+                    $.toast({
+                        title: 'Error!',
+                        subtitle: 'Information missing.',
+                        content: 'No building added.',
+                        type: 'warning',
+                        delay: 3000,
+                        dismissible: true,
+
+                        // is stackable?
+                        stackable: true,
+                        position: 'top-center bottom-right'
+
+                    });
+                    return;
+                }
+                console.log(JSON.stringify(buildings));
+                $.ajax({
+                    type: "POST",
+                    url: "/Projects/SaveBuildings1",
+                    dataType: "json",
+                    contentType: "application/json",
+                    data: JSON.stringify(buildings)
+                }).done(r => {
+                    if (r.success == true) {
+                        $.toast({
+                            title: 'Done!',
+                            subtitle: 'Success.',
+                            content: 'Data Saved successfully.',
+                            type: 'success',
+                            delay: 3000,
+                            dismissible: true,
+
+                            // is stackable?
+                            stackable: true,
+                            position: 'top-center bottom-right'
+
+                        });
+                        
+                    }
+                    }).fail(err => {
+                        console.log(err);
+                        $("#formProject").trigger('reset');
+                        buildings = [];
+                        fillBuildingsTable();
+                        $("#part-projects").hide();
+
+                        $("#ProjectId").attr("disabled", "disabled");
+                        $("#formProjects").trigger('reset');
+
+                    
+                    })
+            });
+        });
+        function fillBuildingsTable() {
+            $("#buildingTbody").empty();
+            for (var i = 0; i < buildings.length; i++) {
+                $(`<tr>
+                                <td>${buildings[i].BuildingName}</td>
+                                <td>${buildings[i].Address}</td>
+                                <td>${buildings[i].TotalFloor}</td>
+                                <td>${buildings[i].FlatSize}</td>
+                               <td>${buildings[i].FlatPrice}</td>
+                                <td></td>
+                            </tr>`)
+                    .appendTo($("#buildingTbody"));
+            }
+        }
+    </script>
+}
+

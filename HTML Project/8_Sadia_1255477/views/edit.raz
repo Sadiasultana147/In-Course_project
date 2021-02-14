@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title></title>
+        <link href="../styles/app.css" rel="stylesheet" />
+    <link href="../styles/form.css" rel="stylesheet" />
+	<script src="../scripts/jquery.min.js"></script>
+        <script>
+            $(document).ready(() => {
+                $("#category").change(() => {
+                  errorShowHide('category');
+                });
+
+                $("#book_name").change(() => {
+                  errorShowHide('book_name');
+                });
+
+                $("#writer").change(() => {
+                  errorShowHide('writer');
+                });
+
+                
+                
+                var isValid;
+                $("#save").click(() => {
+                  isValid = true;
+                  validCheck('category');
+                  validCheck('book_name');
+                  validCheck('writer');
+                  
+        
+                  return isValid;
+                });
+
+                function errorShowHide(fieldId){
+                  if ($("#"+fieldId).val() == "") {
+                    $("#"+fieldId+"_error").show();
+                  } else {
+                    $("#"+fieldId+"_error").hide();
+                  }
+                }
+                function validCheck(fieldId){
+                  if ($("#"+fieldId).val() == "") {
+                    $("#"+fieldId+"_error").show();
+                    isValid = false;
+                  } 
+                 
+                }
+            });
+        </script>
+  </head>
+  <body>
+        <nav class="app-nav">
+            <a href="index.html" class="categories"> BooksWorld </a>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/book.html">Books</a></li>
+            </ul>
+        </nav>
+            
+                <div class="content">
+                    <div class="form-wrap">
+                        <form method="POST" action="/edit/@Model.id">
+                            <div class="field">
+                                <h3 class="text-center">Update Book Information</h3>
+                            </div>
+							<div class="field">All fields are required.</div>
+                            
+                        <div class="field">
+                            <label for="name" class="label">Category</label>
+                            <select class="control" name="category" id="category" >
+                                <option value="">--Select one---</option>
+                                <option value="Action & Adventure" @(Model.category == "Action & Adventure"? "selected": "")>Action & Adventure</option>
+                                <option value="Anthology" @(Model.category == "Anthology" ? "selected": "")>Anthology</option>
+                                <option value="Classic" @(Model.category == "Classic" ? "selected": "")>Classic</option>
+                            </select>
+                        </div>
+						<div class="error" id="category_error">Category is required.</div>
+                        <div class="field">
+                            <label for="name" class="label">Book Name</label>
+                            <input type="text" class="control" name="book_name" id="book_name" value="@Model.bookName" />
+                        </div>
+						<div class="error" id="book_name_error">Book name is required.</div>
+						<div class="field">
+						<label for="name" class="label">Writer</label>
+                        <input type="text" class="control" name="writer" id="writer" value="@Model.writer" />
+						</div>
+						<div class="error" id="writer_error">writer is required.</div>
+
+                            <div class="field">
+                                <input type="reset" class="btn btn-default" value="Reset" />
+                                &nbsp;
+                                <button type="submit" class="btn btn-info" id="save">Update</button>
+                            </div>
+                            <div class="field">
+                                <a href="/book.html" class="btn">&#8592; Back to list</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer text-center">
+                    developed by Sadia Sultana Fency
+                </div>
+         
+       
+  </body>
+</html>

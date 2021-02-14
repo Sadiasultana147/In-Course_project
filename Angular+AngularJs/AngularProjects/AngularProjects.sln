@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularProject", "AngularProject\AngularProject.csproj", "{4615A611-F397-4E34-8441-4263B0C982E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookProject", "BookProject\BookProject.csproj", "{4C18E2F7-025B-44A8-80F0-4BE2020A14AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4615A611-F397-4E34-8441-4263B0C982E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4615A611-F397-4E34-8441-4263B0C982E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4615A611-F397-4E34-8441-4263B0C982E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4615A611-F397-4E34-8441-4263B0C982E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C18E2F7-025B-44A8-80F0-4BE2020A14AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C18E2F7-025B-44A8-80F0-4BE2020A14AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C18E2F7-025B-44A8-80F0-4BE2020A14AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C18E2F7-025B-44A8-80F0-4BE2020A14AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44AB7EFD-2341-44EE-950E-D441D8A05987}
+	EndGlobalSection
+EndGlobal

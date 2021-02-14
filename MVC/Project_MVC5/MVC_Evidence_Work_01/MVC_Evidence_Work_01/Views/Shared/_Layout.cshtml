@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/umd/popper.js"></script>
+    <script src="~/Scripts/jquery-3.5.1.js"></script>
+    <style>
+        body{
+            padding-top:130px;
+            
+        }
+    </style>
+    @RenderSection("styles", false)
+</head>
+<body>
+    <div class="navbar navbar-dark bg-primary fixed-top navbar-expand-md shadow-sm border-bottom">
+        <div class="container">
+            @Html.ActionLink("PROJECT", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        @Html.ActionLink("Home", "Index", "Home", new { }, new { @class = "nav-link" })
+                    </li>
+                    <li class="nav-item">
+                        @Html.ActionLink("Books", "Index", "Books", new { }, new { @class = "nav-link" })
+                    </li>
+                </ul>
+                @if (Request.IsAuthenticated)
+                {
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            @Html.ActionLink("Logout", "Logout", "Accounts", new { }, new { @class = "nav-link" })
+                        </li>
+                    </ul>
+                }
+                else
+                {
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            @Html.ActionLink("Login", "Login", "Accounts", new { }, new { @class = "nav-link" })
+                        </li>
+                    </ul>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        @RenderBody()
+
+    </div>
+    <hr />
+    <footer class="container" style="min-height:450px">
+        <h2 style="color:blueviolet;"><b>Sadia Sulatana Fency</b></h2>
+    </footer>
+    <script src="~/Scripts/bootstrap.js"></script>
+    @RenderSection("scripts", false)
+</body>
+</html>

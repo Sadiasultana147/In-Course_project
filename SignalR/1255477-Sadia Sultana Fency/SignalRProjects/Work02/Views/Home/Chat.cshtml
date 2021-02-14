@@ -1,0 +1,84 @@
+﻿@{
+    ViewBag.Title = "Chat";
+}
+<div class="box">
+    <div class="row">
+        <div class="col-4">
+            <h3>Users</h3>
+            <ul class="list-group" id="users"></ul>
+        </div>
+        <div class="col-8">
+            <div class="row">
+                <div class="input-group col-12">
+                    <input type="text" placeholder="message..." class="form-control" id="t" />
+                    <div class="input-group-append">
+                        <button type="button" id="b"><i class="fa fa-send" style="font-size:28px; color:pink"></i></button>
+                        <button type="button" id="b1"><i class="fa fa-image" style="font-size:28px; "></i></button>
+                    </div>
+                    <input type="file" id="f" style="display:none" accept=".jpg,.png,.gif" />
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h4>Messages</h4>
+                    <div>
+                        <ul id="msgs" class="list-group"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section styles{
+
+    <link href="~/Content/StyleSheet.css" rel="stylesheet" />
+
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+}
+@section scripts{
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery.signalR-2.4.1.js"></script>
+    <script src="~/signalr/Hubs"></script>
+    <script>
+        var name;
+        var proxy = $.connection.chatHub;
+        proxy.client.updateList = (users) => {
+            $("#users").empty();
+            $.each(users, (i, v) => {
+                $("#users").append(`<li class="list-group-item">${v}</li>`)
+            })
+        };
+
+        proxy.client.message = (s, m) => {
+            $("#msgs").append(`<li class='list-group-item'>${s == "SERVER" ? "" : s + ':'} ${m}</li>`)
+        }
+        $.connection.hub.start()
+            .done(() => {
+                name = prompt("Your display name?");
+                proxy.server.addMe(name);
+                $("#b").click(() => {
+                    proxy.server.send(name, $("#t").val());
+                });
+                $("#b1").click(() => {
+                    $("#f").click();
+                });
+                $("#f").on('change', function (ev) {
+                    var file = document.getElementById("f").files[0];
+                    console.log(file.name);
+                    console.log(file.type);
+                    var reader = new FileReader();
+                    reader.onloadend = function () {
+                        var data = { filename: file.name, image: reader.result };
+                        //console.log(data);
+                        proxy.server.uploadImage(name, data);
+                    }
+                    reader.readAsDataURL(file);
+                    reader.re
+                })
+            })
+            .fail(err => {
+                console.log(err);
+            });
+    </script>
+}

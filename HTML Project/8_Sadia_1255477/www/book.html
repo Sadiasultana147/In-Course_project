@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Books</title>
+    <link href="styles/app.css" rel="stylesheet" />
+	<link href="styles/form.css" rel="stylesheet" />
+    <script src="scripts/jquery.js"></script>
+    <script>
+        $(document).ready(() => {
+            $.ajax({
+                type: 'GET',
+                url: '/list',
+                dataType: 'json'
+            }).done((r) => {
+                $.each(r, (i, v) => {
+                    $("#placeholder").append(`<tr>
+                            <td><img class='profile-pic' src='/Images/${v.picture}' width='60' /></td>
+                            
+							<td>${v.bookName}</td>
+							<td>${v.writer}</td>
+							<td>${v.category}</td>
+							<td>
+                              <a href="/edit/${v.id}" class="btn btn-primary">Edit</a>
+							  
+                              
+                            </td>
+                        </tr>`)
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+    
+    <nav class="app-nav">
+        <a href="index.html" class="categories"> BooksWorld </a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="book.html">Books</a></li>
+        </ul>
+    </nav>
+        
+            <div class="content">
+                
+              
+                    <h1>Book List</h1>
+                    <div style="display:flex; justify-content:flex-end; padding-right: 20px;;">
+                        <a href="form.html" class="btn-circle"> Add New</a>
+                    </div>
+                    <div class="book" style="padding: 10px 20px;">
+                    <table class="table bordered">
+                        <thead>
+                            <tr>
+							    <th>PICTURE</th>
+	                            <th>BOOK NAME</th>
+								<th>WRITER</th>
+								<th>CATEGORY</th>
+								
+								<th class="w220"></th>
+                            </tr>
+                        </thead>
+                        <tbody id="placeholder"></tbody>
+                    </table>
+                </div>
+            </div>
+          
+            <footer class="footer">
+                Sadia Sultana Fency
+				</br>
+				ID: 1255477
+			</footer>
+            </div>
+        </div>
+
+
+</body>
+</html>

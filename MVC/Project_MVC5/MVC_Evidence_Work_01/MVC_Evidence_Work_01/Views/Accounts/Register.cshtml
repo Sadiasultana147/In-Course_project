@@ -1,0 +1,46 @@
+﻿@model MVC_Evidence_Work_01.ViewModels.RegisterModel
+@{
+    ViewBag.Title = "Login";
+}
+
+<div class="row">
+    <div class="col">
+        <h3 class="display-4">Registration for Book</h3>
+        <div id="msg"></div>
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary()
+            <table class="table-borderless" style="width:320px">
+                <tr>
+                    <th style="width:90px;">User Name</th>
+                    <td>
+                        @Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.Username, "", new { @class = "text-danger" })
+                    </td>
+                </tr>
+                <tr>
+                    <th style="width:90px;">Password</th>
+                    <td>
+                        @Html.PasswordFor(x => x.Password, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.Password, "", new { @class = "text-danger" })
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>&nbsp;</th>
+                    <td>
+                        <button class="btn btn-primary">Login</button>
+                    </td>
+                </tr>
+            </table>
+            
+        }
+    </div>
+</div>
+@section scripts
+    {
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+}
+
+

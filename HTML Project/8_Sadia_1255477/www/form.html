@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>FORM</title>
+    <link href="styles/app.css" rel="stylesheet" />
+    <link href="styles/form.css" rel="stylesheet" />
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+        <script>
+            $(document).ready(() => {
+                
+
+                $("#book_name").change(() => {
+                  errorShowHide('book_name');
+                });
+
+                $("#writer").change(() => {
+                  errorShowHide('writer');
+                });
+				$("#category").change(() => {
+                  errorShowHide('category');
+                });
+
+                
+                
+                $("#picture").change(() => {
+                  errorShowHide('picture');
+                });
+
+                
+                var isValid;
+                $("#save").click(() => {
+                  isValid = true;
+                  
+                  validCheck('book_name');
+                  validCheck('writer');
+                  validCheck('picture');
+				  validCheck('category');
+        
+                  return isValid;
+                });
+
+                function errorShowHide(fieldId){
+                  if ($("#"+fieldId).val() == "") {
+                    $("#"+fieldId+"_error").show();
+                  } else {
+                    $("#"+fieldId+"_error").hide();
+                  }
+                }
+                function validCheck(fieldId){
+                  if ($("#"+fieldId).val() == "") {
+                    $("#"+fieldId+"_error").show();
+                    isValid = false;
+                  } 
+                 
+                }
+            });
+        </script>
+</head>
+
+<body>
+
+    <nav class="app-nav">
+        <a href="index.html" class="categories"> BooksWorld </a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="book.html">Books</a></li>
+        </ul>
+    </nav>
+        
+            <div class="content">
+
+                <div class="content-wrap">
+                    
+                    <form id="frm" action="/create" method="post" enctype="multipart/form-data">
+                        <div class="field">All fields are required.</div>
+                        <div id="error" class="field error" style="display: none;"></div>
+                        <div class="field">
+                            <h1>Add New Book</h1>
+                        </div>
+                        
+                        <div class="field">
+                            <label for="Book_name" class="label">Book Name</label>
+                            <input type="text"  class="control" name="book_name" id="book_name" />
+                        </div>
+						<div class="error" id="book_name_error">Book Name is required.</div>
+                        <div class="field">
+                            <label for="name" class="label">Writer</label>
+                            <input type="text"  class="control" name="writer" id="writer">
+                                
+                        </div>
+						<div class="error" id="writer_error">Writer is required.</div>
+						<div class="field">
+                            <label for="category" class="label">Category</label>
+                            <select class="control" name="category" id="category">
+                                <option value="">--Select one---</option>
+                                <option value="Action & Adventure">Action & Adventure</option>
+                                <option value="Anthology">Anthology</option>
+                                <option value="Classic">Classic</option>
+                            </select>
+                        </div>
+						<div class="error" id="category_error">Category is required.</div>
+                        
+                        <div class="field">
+                            <label class="label" for="picture">Picture</label>
+                            <input class="control" type="file" name="picture" id="picture" />
+                        </div>
+						<div class="error" id="picture_error">Picture is required.</div>
+                        <div class="field">
+                            <input type="reset" class="btn btn-default" value="Reset" />
+                            &nbsp;
+                            <button type="submit" class="btn btn-primary" id="save" >Save</button>
+                        </div>
+                        <div class="field">
+                            <a href="book.html" class="btn btn-primary">&#8592; Back to list</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer">
+                Sadia Sultana Fency
+				</br>
+				ID: 1255477
+            </div>
+        
+  
+
+</body>
+
+</html>

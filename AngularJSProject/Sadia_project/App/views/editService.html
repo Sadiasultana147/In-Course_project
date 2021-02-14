@@ -1,0 +1,59 @@
+﻿<div ng-controller="serviceController">
+    <div class="card">
+        <div class="card-header">
+            <h3>Edit Service</h3>
+        </div>
+        <div class="card-body">
+            <div ng-show="updateServiceMsg" class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Success!</strong> Data updated.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="card-text">
+                <form name="frmEditService" ng-submit="updateService(frmEditService)" novalidate>
+                    <div class="form-group row">
+                        <label class="col-form-label col-form-label-sm col-2">Company</label>
+                        <div class="col-4">
+                            <select name="companyId" ng-options="item.company.CompanyId as item.company.CompanyName for item in model.companies" class="form-control form-control-sm" ng-model="currentService.CompanyId" required>
+                                <option value="">Select</option>
+                            </select>
+                            <div class="text-danger" ng-show="frmEditService.companyId.$error">
+                                <div ng-show="frmEditService.companyId.$error.required">This field is requred.</div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-form-label-sm col-2">Service Name</label>
+                        <div class="col-4">
+                            <input name="serviceName" type="text" class="form-control form-control-sm" ng-model="currentService.ServiceName" required maxlength="40" />
+                            <div class="text-danger" ng-show="frmEditService.serviceName.$error">
+                                <div ng-show="frmEditService.serviceName.$error.required">This field is requred.</div>
+                                <div ng-show="frmEditService.serviceName.$error.maxlength">This field is requred.</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-form-label-sm col-2">Is Contactual</label>
+                        <div class="col-4">
+                            <input name="isContactual" type="checkbox" ng-model="currentService.IsContactual" />
+
+                        </div>
+                    </div>
+                    <div class="form-group row">
+
+                        <div class="col-4 offset-2">
+                            <button type="submit" class="btn btn-primary">Update</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="card-footer">
+            <a ng-href="#!/companies"><i class="fa fa-long-arrow-left"></i> Back to compnay list</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,83 @@
+﻿@model MVC_Evidence_Work_01.Models.Book
+@{
+    /**/
+
+    ViewBag.Title = "Edit";
+}
+<div class="row">
+    <div class="col">
+        <h3 class="display-4">Edit Book</h3>
+        <div id="msg"></div>
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(x => x.BookId)
+            <div class="form-group row">
+                @Html.LabelFor(x => x.BookName, new { @class = "col-control-label col-2 text-right" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.BookName, new { @class = "form-control form-control-sm" })
+                    @Html.ValidationMessageFor(x => x.BookName, null, new { @class = "text-danger" })
+                </div>
+
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(x => x.Category, new { @class = "col-control-label col-2 text-right" })
+                <div class="col-4">
+                    @Html.EnumDropDownListFor(x => x.Category, "--Select one--", new { @class = "form-control form-control-sm" })
+                    @Html.ValidationMessageFor(x => x.Category, null, new { @class = "text-danger" })
+                </div>
+
+            </div>
+            <div class="form-group row" id="PublishDate">
+                @Html.LabelFor(x => x.PublishDate, new { @class = "col-control-label col-2 text-right" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.PublishDate, new { @class = "form-control form-control-sm" })
+                    @Html.ValidationMessageFor(x => x.PublishDate, null, new { @class = "text-danger" })
+                </div>
+
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(x => x.Picture, new { @class = "col-control-label col-2 text-right" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.Picture, new { type = "file" })
+                    @Html.ValidationMessageFor(x => x.Picture, null, new { @class = "text-danger", style = "display:block" })
+
+                </div>
+
+            </div>
+            <div class="form-group row">
+
+                <div class="col-4 offset-2">
+                    <button type="submit" class="btn btn-primary"> Save Data</button>
+
+                </div>
+
+            </div>
+        }
+    </div>
+</div>
+@section styles{
+
+    <link href="~/Content/bootstrap-datepicker.standalone.css" rel="stylesheet" />
+
+}
+@section scripts
+    {
+
+
+    <script src="~/Scripts/bootstrap-datepicker.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+
+<script>
+    $(document).ready(() => {
+        $("#PublishDate input").datepicker(
+            {
+                format: "yyyy-mm-dd"
+            }
+        );
+    })
+</script>
+}
+
+

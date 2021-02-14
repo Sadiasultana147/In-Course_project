@@ -1,0 +1,580 @@
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.dll.config
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.pdb
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.exe
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.exe.config
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.rsp
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.exe
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.exe.config
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.rsp
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.AppContext.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Console.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Compression.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Pipes.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Claims.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.ValueTuple.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XPath.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.exe
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.exe.config
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.rsp
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\VBCSCompiler.exe
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Antlr3.Runtime.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.SqlServer.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Newtonsoft.Json.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Owin.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Net.Http.Formatting.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Helpers.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.Owin.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.WebHost.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Mvc.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Optimization.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Razor.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Razor.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\WebGrease.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Newtonsoft.Json.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Net.Http.Formatting.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Helpers.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.WebHost.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Mvc.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Optimization.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Razor.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Razor.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Antlr3.Runtime.pdb
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.SqlServer.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.Owin.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.CoreCompileInputs.cache
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.CopyComplete
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.dll
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.pdb
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.Migrations.ComapanyDb.Company_Initial.resources
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.GenerateResource.cache
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.Migrations.IdentityDb.Identity_Initial.resources
+C:\Users\LAB104-P\source\repos\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csprojAssemblyReference.cache
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.dll.config
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.pdb
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.exe
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.exe.config
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.rsp
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.exe
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.exe.config
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.rsp
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.Managed.Core.targets
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.AppContext.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Collections.Immutable.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Console.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Compression.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.FileSystem.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Pipes.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Reflection.Metadata.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.AccessControl.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Claims.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Principal.Windows.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.ValueTuple.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XmlDocument.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XPath.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.exe
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.exe.config
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.rsp
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\VBCSCompiler.exe
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\VBCSCompiler.exe.config
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Antlr3.Runtime.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.SqlServer.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Core.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Cookies.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Facebook.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Google.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.OAuth.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Twitter.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Web.Infrastructure.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Newtonsoft.Json.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Owin.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Net.Http.Formatting.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Helpers.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.Owin.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.WebHost.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Mvc.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Optimization.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Razor.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Deployment.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Razor.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\WebGrease.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Newtonsoft.Json.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Net.Http.Formatting.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Helpers.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.WebHost.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Mvc.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Optimization.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Razor.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Deployment.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Razor.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Antlr3.Runtime.pdb
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.SqlServer.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Core.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Facebook.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Cookies.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Google.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Twitter.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.OAuth.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.Owin.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csprojAssemblyReference.cache
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.Migrations.ComapanyDb.Company_Initial.resources
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.Migrations.IdentityDb.Identity_Initial.resources
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.GenerateResource.cache
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.CoreCompileInputs.cache
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.CopyComplete
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.dll
+D:\R43\M8\Class 08\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.pdb
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.dll.config
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.pdb
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.exe
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.exe.config
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.rsp
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.exe
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.exe.config
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.rsp
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.Managed.Core.targets
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.AppContext.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Collections.Immutable.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Console.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Compression.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.FileSystem.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Pipes.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Reflection.Metadata.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.AccessControl.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Claims.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Principal.Windows.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.ValueTuple.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XmlDocument.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XPath.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.exe
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.exe.config
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.rsp
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\VBCSCompiler.exe
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\VBCSCompiler.exe.config
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Antlr3.Runtime.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.SqlServer.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Core.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Cookies.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Facebook.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Google.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.OAuth.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Twitter.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Web.Infrastructure.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Newtonsoft.Json.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Owin.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Net.Http.Formatting.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Helpers.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.Owin.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.WebHost.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Mvc.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Optimization.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Razor.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Deployment.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Razor.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\WebGrease.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Newtonsoft.Json.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Net.Http.Formatting.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Helpers.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.WebHost.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Mvc.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Optimization.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Razor.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Deployment.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Razor.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Antlr3.Runtime.pdb
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.SqlServer.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Core.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Facebook.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Cookies.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Google.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Twitter.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.OAuth.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.Owin.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.Migrations.IdentityDb.Identity_Initial.resources
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.GenerateResource.cache
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.CoreCompileInputs.cache
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.CopyComplete
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.dll
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.pdb
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.Migrations.CompanyDb.Company_Initial.resources
+D:\R43\M8\Class 09\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csprojAssemblyReference.cache
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.dll.config
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.pdb
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.exe
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.exe.config
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.rsp
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.exe
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.exe.config
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.rsp
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.AppContext.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Console.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Compression.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Claims.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.ValueTuple.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.exe
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.exe.config
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.rsp
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\VBCSCompiler.exe
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Antlr3.Runtime.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.SqlServer.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Newtonsoft.Json.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Owin.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Net.Http.Formatting.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Helpers.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.Owin.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.WebHost.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Mvc.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Optimization.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Razor.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Razor.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\WebGrease.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Newtonsoft.Json.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Net.Http.Formatting.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Helpers.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.WebHost.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Mvc.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Optimization.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Razor.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Razor.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Antlr3.Runtime.pdb
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.SqlServer.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.Owin.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csprojAssemblyReference.cache
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.Migrations.CompanyDb.Company_Initial.resources
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.Migrations.IdentityDb.Identity_Initial.resources
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.GenerateResource.cache
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.CoreCompileInputs.cache
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.CopyComplete
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.dll
+C:\Users\Habibur Rahman\Desktop\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.pdb
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.dll.config
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\M8_Class_07_Work_01.pdb
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.exe
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.exe.config
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csc.rsp
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.exe
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.exe.config
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\csi.rsp
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.Managed.Core.targets
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.AppContext.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Collections.Immutable.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Console.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Compression.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.FileSystem.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.IO.Pipes.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Reflection.Metadata.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.AccessControl.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Claims.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Security.Principal.Windows.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.ValueTuple.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XmlDocument.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XPath.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.exe
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.exe.config
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\vbc.rsp
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\VBCSCompiler.exe
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\roslyn\VBCSCompiler.exe.config
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Antlr3.Runtime.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.SqlServer.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Core.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Cookies.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Facebook.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Google.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.OAuth.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Twitter.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Web.Infrastructure.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Newtonsoft.Json.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Owin.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Net.Http.Formatting.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Helpers.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.Owin.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.WebHost.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Mvc.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Optimization.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Razor.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Deployment.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Razor.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\WebGrease.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Newtonsoft.Json.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Net.Http.Formatting.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Helpers.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.WebHost.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Mvc.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Optimization.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Razor.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Deployment.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.WebPages.Razor.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Antlr3.Runtime.pdb
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\EntityFramework.SqlServer.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Core.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Facebook.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Cookies.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Google.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.Twitter.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.Owin.Security.OAuth.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\System.Web.Http.Owin.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csprojAssemblyReference.cache
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.Migrations.IdentityDb.Identity_Initial.resources
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.GenerateResource.cache
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.CoreCompileInputs.cache
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.csproj.CopyComplete
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.dll
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.pdb
+D:\R43\M8\Class 10\M8_Class_07_Works\M8_Class_07_Work_01\obj\Debug\M8_Class_07_Work_01.Migrations.CompanyDb.ConpanyDb_Initial.resources

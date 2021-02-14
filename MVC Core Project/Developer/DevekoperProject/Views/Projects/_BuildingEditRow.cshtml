@@ -1,0 +1,27 @@
+﻿@model Building
+<tr>
+    <td>
+        <input type="hidden" asp-for="BuildingId" />
+        <input asp-for="BuildingName" class="form-control" />
+        <span asp-validation-for="BuildingName" class="text-danger"></span>
+    </td>
+    <td>
+        <input type="text" asp-for="Address" class="form-control date" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </td>
+    <td>
+        <input type="text"  asp-for="TotalFloor" class="form-control" />
+        <span asp-validation-for="TotalFloor" class="text-danger"></span>
+    </td>
+    <td>
+        <input asp-for="FlatSize" class="form-control" />
+        <span asp-validation-for="FlatSize" class="text-danger"></span>
+    </td>
+    <td>
+        <input asp-for="FlatPrice" class="form-control" />
+        <span asp-validation-for="FlatPrice" class="text-danger"></span>
+    </td>
+    <th>
+        <button type="button" class="btn btn-danger building-del">Del</button>
+    </th>
+</tr>

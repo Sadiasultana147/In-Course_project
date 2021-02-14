@@ -1,0 +1,43 @@
+﻿@model MVC_Evidence_Work_01.Models.Book
+@{
+    ViewBag.Title = "Delete";
+}
+<div class="row">
+    <div class="col">
+        <div>Are you Sure to Delete?</div>
+        <div id="msg"></div>
+        <table class="table-borderless" style="width:320px">
+            <tr>
+                <th style="width:90px;">BookName</th>
+                <td>
+                    @Model.BookName
+                </td>
+            </tr>
+            <tr>
+                <th style="width:90px;">Category</th>
+                <td>
+                    @Model.Category
+                </td>
+            </tr>
+            <tr>
+                <th style="width:90px;">PublishDate</th>
+                <td>
+                    @Model.PublishDate
+                </td>
+            </tr>
+        </table>
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(x => x.BookId)
+            <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-danger">Confirm Delete</button>
+            </div>
+        }
+        <div>&nbsp;</div>
+        <div class="d-flex mb-2">
+        @Html.ActionLink("Back to list", "Index", "Home", new {@class="btn btn-primary" })
+        </div>
+    </div>
+</div>
+
+

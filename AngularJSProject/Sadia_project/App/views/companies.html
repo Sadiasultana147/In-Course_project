@@ -1,0 +1,108 @@
+﻿<div class="card">
+    <div class="card-header">
+        <h2 class="display-5">Company List</h2>
+    </div>
+    <div class="card-body">
+        <div class="card-text">
+            <div class="d-flex justify-content-end mb-1">
+                <a class="btn btn-success btn-sm" ng-href="#!/createCompany"><i class="fa fa-plus"></i></a>
+            </div>
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th></th>
+                        <th>Registered Name </th>
+                        <th>Eshtablised </th>
+                        <th>Address </th>
+                        <th>Email</th>
+                        <th>Web</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody ng-repeat="data in model.companies">
+                    <tr>
+                        <td>
+                            <button ng-if="!data.isExpanded" class="btn" ng-click="expandChild($index)"><i class="fa fa-plus"></i></button>
+                            <button ng-if="data.isExpanded" class="btn" ng-click="expandChild($index)"><i class="fa fa-minus"></i></button>
+                        </td>
+                        <td>{{data.company.CompanyName}}</td>
+                        <td>{{data.company.Eshtablished | date: 'yyyy-MM-dd'}}</td>
+                        <td>{{data.company.Address}}</td>
+                        <td>{{data.company.ContactEmail}}</td>
+                        <td>{{data.company.Web}}</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm rounded-circle" href="#!/editCompany/{{data.company.CompanyId}}"><i class="fa fa-pencil"></i></a>
+                            <button class="btn btn-danger btn-sm rounded-circle" ng-click="deleteCompany($index)"><i class="fa fa-trash"></i></button>
+                        </td>
+                    </tr>
+                    <tr ng-if="data.isExpanded">
+                        <td>&nbsp;</td>
+                        <td colspan="6">
+                            <div class="d-flex align-items-baseline mb-1">
+                                <h3 class="card-subtitle">Products</h3>
+                                <a ng-href="#!/createProduct" class="btn btn-success btn-sm ml-auto"><i class="fa fa-plus"></i></a>
+                            </div>
+                            <table class="table table-bordered">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th>Product Name</th>
+                                        <th>Product Type</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="p in data.company.Products">
+                                        <td>{{p.ProductName}}</td>
+                                        <td>{{p.Type}}</td>
+                                        <td>
+                                            <a class="btn btn-primary btn-sm rounded-circle" ng-href="#!/editProduct/{{p.ProductId}}"><i class="fa fa-pencil"></i></a>
+                                            <a class="btn btn-danger btn-sm rounded-circle" ng-click="delCompanyProduct(p.CompanyId,p.ProductId, $index)"><i class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr ng-if="data.isExpanded">
+                        <td>&nbsp;</td>
+                        <td colspan="6">
+                            <div class="d-flex align-items-baseline mb-1">
+                                <h3 class="card-subtitle">Services</h3>
+                                <a ng-href="#!/createService" class="btn btn-success btn-sm ml-auto"><i class="fa fa-plus"></i></a>
+                            </div>
+                            <table class="table table-bordered">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th>Service Name</th>
+                                        <th>Is Contactual</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="s in data.company.Services">
+                                        <td>{{s.ServiceName}}</td>
+                                        <td>{{s.IsContactual ? "Yes": "No"}}</td>
+                                        <td>
+                                            <a ng-href="#!/editService/{{s.ServiceId}}" class="btn btn-primary btn-sm rounded-circle"><i class="fa fa-pencil"></i></a>
+                                            <a class="btn btn-danger btn-sm rounded-circle" ng-click="delCompanyService(s.CompanyId,s.ServiceId, $index)"><i class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+    </div>
+    <div class="card-footer">
+        <!--<div class="d-flex justify-content-end">
+            <ul class="pagination pagination-sm">
+                <li ng-class="{active: $index+1 == currentPage}" ng-repeat="product in model.companies|pageCount:1" class="page-item">
+                    <a class="page-link" ng-click="selectPage($index + 1)" href="">{{$index+1}}</a>
+                </li>
+            </ul>
+        </div>-->
+    </div>
+</div>

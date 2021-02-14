@@ -1,0 +1,275 @@
+D:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.deps.json
+D:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.runtimeconfig.json
+D:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.runtimeconfig.dev.json
+D:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.dll
+D:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.pdb
+D:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.Views.dll
+D:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.Views.pdb
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csproj.CoreCompileInputs.cache
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorAssemblyInfo.cache
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorAssemblyInfo.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.AssemblyInfoInputs.cache
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.AssemblyInfo.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.TagHelpers.input.cache
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.TagHelpers.output.cache
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorCoreGenerate.cache
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\CreateDeveloperCompanyWithProject.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\Index.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\_ProjectAddRowPartial.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Index.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorTargetAssemblyInfo.cache
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorTargetAssemblyInfo.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.Views.pdb
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.dll
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.pdb
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csproj.CopyComplete
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\_BuildingAddRow.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.deps.json
+F:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.runtimeconfig.json
+F:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.runtimeconfig.dev.json
+F:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.dll
+F:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.pdb
+F:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.Views.dll
+F:\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.Views.pdb
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csproj.CoreCompileInputs.cache
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorAssemblyInfo.cache
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorAssemblyInfo.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.AssemblyInfoInputs.cache
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.AssemblyInfo.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.TagHelpers.input.cache
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.TagHelpers.output.cache
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorCoreGenerate.cache
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\CreateDeveloperCompanyWithProject.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\EditWithProject.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\Index.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\_EditProjectRow.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\_ProjectAddRowPartial.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Create.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Index.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\_BuildingAddRow.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorTargetAssemblyInfo.cache
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorTargetAssemblyInfo.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.Views.pdb
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.dll
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.pdb
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csproj.CopyComplete
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csprojAssemblyReference.cache
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Buildings\Create.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Buildings\Delete.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Buildings\Details.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Buildings\Edit.g.cshtml.cs
+F:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Buildings\Index.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\EditWithProject.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\_EditProjectRow.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Create.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.deps.json
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.runtimeconfig.json
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.runtimeconfig.dev.json
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.dll
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.pdb
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.Views.dll
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.Views.pdb
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csprojAssemblyReference.cache
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csproj.CoreCompileInputs.cache
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorAssemblyInfo.cache
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorAssemblyInfo.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.AssemblyInfoInputs.cache
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.AssemblyInfo.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.TagHelpers.input.cache
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.TagHelpers.output.cache
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorCoreGenerate.cache
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\CreateDeveloperCompanyWithProject.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\EditWithProject.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\Index.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\_EditProjectRow.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\_ProjectAddRowPartial.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Create.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Index.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\_BuildingAddRow.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorTargetAssemblyInfo.cache
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorTargetAssemblyInfo.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.Views.pdb
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.dll
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.pdb
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csproj.CopyComplete
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\_BuildingEditRow.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Edit.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Delete.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Fency\Downloads\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Delete.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Edit.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\_BuildingEditRow.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csprojAssemblyReference.cache
+D:\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.deps.json
+D:\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.runtimeconfig.json
+D:\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.runtimeconfig.dev.json
+D:\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.dll
+D:\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.pdb
+D:\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.Views.dll
+D:\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.Views.pdb
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csprojAssemblyReference.cache
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csproj.CoreCompileInputs.cache
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorAssemblyInfo.cache
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorAssemblyInfo.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.AssemblyInfoInputs.cache
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.AssemblyInfo.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.TagHelpers.input.cache
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.TagHelpers.output.cache
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorCoreGenerate.cache
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\CreateDeveloperCompanyWithProject.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\EditWithProject.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\Index.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\_EditProjectRow.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\_ProjectAddRowPartial.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Create.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Delete.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Edit.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Index.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\_BuildingAddRow.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\_BuildingEditRow.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorTargetAssemblyInfo.cache
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorTargetAssemblyInfo.cs
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.Views.pdb
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.dll
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.pdb
+D:\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csproj.CopyComplete
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.deps.json
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.runtimeconfig.json
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.runtimeconfig.dev.json
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.dll
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.pdb
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.Views.dll
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.Views.pdb
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csprojAssemblyReference.cache
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csproj.CoreCompileInputs.cache
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorAssemblyInfo.cache
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorAssemblyInfo.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.AssemblyInfoInputs.cache
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.AssemblyInfo.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.TagHelpers.input.cache
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.TagHelpers.output.cache
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorCoreGenerate.cache
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\CreateDeveloperCompanyWithProject.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\EditWithProject.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\Index.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\_EditProjectRow.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\_ProjectAddRowPartial.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Create.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Delete.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Edit.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Index.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\_BuildingAddRow.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\_BuildingEditRow.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorTargetAssemblyInfo.cache
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorTargetAssemblyInfo.cs
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.Views.pdb
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.dll
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.pdb
+D:\1255477\MVC Core Project\DevekoperProject\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csproj.CopyComplete
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.deps.json
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.runtimeconfig.json
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.runtimeconfig.dev.json
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.dll
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.pdb
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.Views.dll
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\bin\Debug\netcoreapp2.2\DevekoperProject.Views.pdb
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csprojAssemblyReference.cache
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csproj.CoreCompileInputs.cache
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorAssemblyInfo.cache
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorAssemblyInfo.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.AssemblyInfoInputs.cache
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.AssemblyInfo.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.TagHelpers.input.cache
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.TagHelpers.output.cache
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorCoreGenerate.cache
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\CreateDeveloperCompanyWithProject.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\EditWithProject.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\Index.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\_EditProjectRow.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\DeveloperCompany\_ProjectAddRowPartial.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Create.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Delete.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Edit.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Index.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\_BuildingAddRow.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Projects\_BuildingEditRow.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorTargetAssemblyInfo.cache
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.RazorTargetAssemblyInfo.cs
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.Views.pdb
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.dll
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.pdb
+F:\R43\sadia-1255477\Project\M7_Core_Project\1255477-Sadia sultana Fency\MVC Core Project\Developer\DevekoperProject\obj\Debug\netcoreapp2.2\DevekoperProject.csproj.CopyComplete
